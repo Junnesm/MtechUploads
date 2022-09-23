@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1cA-o4-MEt">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--FamBam -->
+        <scene sceneID="3Py-Fm-CsV">
+            <objects>
+                <viewController id="Vm0-iV-loW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VZu-kc-ZA3">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FAMILY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezf-iy-sls">
+                                <rect key="frame" x="4" y="67" width="382" height="40.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="asians" translatesAutoresizingMaskIntoConstraints="NO" id="dI0-9L-YeZ">
+                                <rect key="frame" x="4" y="157.66666666666666" width="390" height="273.66666666666674"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dI0-9L-YeZ" secondAttribute="height" multiplier="191:134" id="GbA-Bb-Tde"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I have a family of five " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FxF-az-QGQ">
+                                <rect key="frame" x="4" y="714.66666666666663" width="382" height="31.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mU4-2W-6MY"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="mU4-2W-6MY" firstAttribute="bottom" secondItem="FxF-az-QGQ" secondAttribute="bottom" constant="15" id="1Ea-CW-NMM"/>
+                            <constraint firstItem="dI0-9L-YeZ" firstAttribute="top" secondItem="ezf-iy-sls" secondAttribute="bottom" constant="50" id="6Jg-Um-c6w"/>
+                            <constraint firstItem="ezf-iy-sls" firstAttribute="top" secondItem="mU4-2W-6MY" secondAttribute="top" constant="20" id="6SG-sg-4SN"/>
+                            <constraint firstItem="mU4-2W-6MY" firstAttribute="trailing" secondItem="FxF-az-QGQ" secondAttribute="trailing" constant="4" id="QMY-Hb-zKb"/>
+                            <constraint firstItem="dI0-9L-YeZ" firstAttribute="trailing" secondItem="mU4-2W-6MY" secondAttribute="trailing" constant="4" id="Rlf-HM-ZM0"/>
+                            <constraint firstItem="FxF-az-QGQ" firstAttribute="leading" secondItem="mU4-2W-6MY" secondAttribute="leading" constant="4" id="fD3-XA-erg"/>
+                            <constraint firstItem="ezf-iy-sls" firstAttribute="leading" secondItem="mU4-2W-6MY" secondAttribute="leading" constant="4" id="heU-WS-pd0"/>
+                            <constraint firstItem="mU4-2W-6MY" firstAttribute="trailing" secondItem="ezf-iy-sls" secondAttribute="trailing" constant="4" id="kVF-zO-nUp"/>
+                            <constraint firstItem="dI0-9L-YeZ" firstAttribute="leading" secondItem="mU4-2W-6MY" secondAttribute="leading" constant="4" id="l8C-zR-3M3"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="FamBam " image="circle.hexagongrid.circle" catalog="system" selectedImage="circle.hexagongrid.circle" id="ytv-n3-OKG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oby-He-AE1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1450.7692307692307" y="-107.34597156398104"/>
+        </scene>
+        <!--Hobbies-->
+        <scene sceneID="Ww1-mW-kSu">
+            <objects>
+                <viewController id="yhl-z6-rBt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g7k-iO-Ov7">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="HOBBIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jip-gQ-m8S">
+                                <rect key="frame" x="4" y="67" width="382" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Jip-gQ-m8S" secondAttribute="height" multiplier="386:21" id="DzE-Kp-7wN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hobbies " translatesAutoresizingMaskIntoConstraints="NO" id="J3d-ZY-C79">
+                                <rect key="frame" x="4" y="137.66666666666663" width="382" height="368"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="J3d-ZY-C79" secondAttribute="height" multiplier="191:184" id="AmP-VT-25A"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I enjoy watching Anime" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6I1-vB-nih">
+                                <rect key="frame" x="4" y="714.66666666666663" width="382" height="31.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7pU-YE-GyR"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="J3d-ZY-C79" firstAttribute="leading" secondItem="7pU-YE-GyR" secondAttribute="leading" constant="4" id="0OX-Z0-jsF"/>
+                            <constraint firstItem="Jip-gQ-m8S" firstAttribute="leading" secondItem="7pU-YE-GyR" secondAttribute="leading" constant="4" id="1Sz-vU-yts"/>
+                            <constraint firstItem="7pU-YE-GyR" firstAttribute="trailing" secondItem="6I1-vB-nih" secondAttribute="trailing" constant="4" id="6AN-Y5-RGc"/>
+                            <constraint firstItem="7pU-YE-GyR" firstAttribute="trailing" secondItem="Jip-gQ-m8S" secondAttribute="trailing" constant="4" id="On4-C9-0hH"/>
+                            <constraint firstItem="6I1-vB-nih" firstAttribute="leading" secondItem="7pU-YE-GyR" secondAttribute="leading" constant="4" id="g1T-kE-THi"/>
+                            <constraint firstItem="J3d-ZY-C79" firstAttribute="top" secondItem="Jip-gQ-m8S" secondAttribute="bottom" constant="50" id="kTa-w2-QdT"/>
+                            <constraint firstItem="Jip-gQ-m8S" firstAttribute="top" secondItem="7pU-YE-GyR" secondAttribute="top" constant="20" id="uBW-rc-4Jb"/>
+                            <constraint firstItem="7pU-YE-GyR" firstAttribute="bottom" secondItem="6I1-vB-nih" secondAttribute="bottom" constant="15" id="xa5-Qt-8XR"/>
+                            <constraint firstItem="7pU-YE-GyR" firstAttribute="trailing" secondItem="J3d-ZY-C79" secondAttribute="trailing" constant="4" id="zSY-rg-GI2"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hobbies" image="pencil.circle" catalog="system" id="UnQ-hd-629"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="24d-As-ELC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2083.0769230769229" y="-107.34597156398104"/>
+        </scene>
+        <!--Me Yo -->
+        <scene sceneID="PE3-Kd-Zsj">
+            <objects>
+                <viewController id="Kg6-jK-mIf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EXF-yN-wos">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WATASHI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6xI-fF-2MP">
+                                <rect key="frame" x="4" y="67" width="382" height="55.333333333333343"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="6xI-fF-2MP" secondAttribute="height" multiplier="179:26" id="RgV-u1-1Mr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="me cat" translatesAutoresizingMaskIntoConstraints="NO" id="vKd-sK-IGU">
+                                <rect key="frame" x="4" y="172.33333333333337" width="382" height="389"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vKd-sK-IGU" secondAttribute="height" multiplier="382:389" id="rar-iO-9xM"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am from Hawaii, I like cats, and I love Japanese food " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zR0-wI-9oN">
+                                <rect key="frame" x="4" y="679" width="382" height="67"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZKl-M7-Mpb"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <constraints>
+                            <constraint firstItem="ZKl-M7-Mpb" firstAttribute="trailing" secondItem="6xI-fF-2MP" secondAttribute="trailing" constant="4" id="3Kg-18-3D9"/>
+                            <constraint firstItem="ZKl-M7-Mpb" firstAttribute="trailing" secondItem="vKd-sK-IGU" secondAttribute="trailing" constant="4" id="BQ7-uq-mqa"/>
+                            <constraint firstItem="zR0-wI-9oN" firstAttribute="leading" secondItem="ZKl-M7-Mpb" secondAttribute="leading" constant="4" id="Q5g-vP-mA6"/>
+                            <constraint firstItem="ZKl-M7-Mpb" firstAttribute="trailing" secondItem="zR0-wI-9oN" secondAttribute="trailing" constant="4" id="V9E-8g-Nxv"/>
+                            <constraint firstItem="vKd-sK-IGU" firstAttribute="top" secondItem="6xI-fF-2MP" secondAttribute="bottom" constant="50" id="cyB-Tv-Lju"/>
+                            <constraint firstItem="vKd-sK-IGU" firstAttribute="leading" secondItem="ZKl-M7-Mpb" secondAttribute="leading" constant="4" id="eVd-2h-GjL"/>
+                            <constraint firstItem="6xI-fF-2MP" firstAttribute="top" secondItem="ZKl-M7-Mpb" secondAttribute="top" constant="20" id="hi0-pP-97T"/>
+                            <constraint firstItem="ZKl-M7-Mpb" firstAttribute="bottom" secondItem="zR0-wI-9oN" secondAttribute="bottom" constant="15" id="rig-aK-SMn"/>
+                            <constraint firstItem="6xI-fF-2MP" firstAttribute="leading" secondItem="ZKl-M7-Mpb" secondAttribute="leading" constant="4" id="tC7-i7-Dv4"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Me Yo " image="arrowtriangle.up.fill" catalog="system" selectedImage="arrowtriangle.up.fill" id="sfm-Ru-AVO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9a4-vv-aS3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2713.8461538461538" y="-107.34597156398104"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="z2h-rz-Ef2">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="1cA-o4-MEt" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eq3-DH-gs7">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="yhl-z6-rBt" kind="relationship" relationship="viewControllers" id="AK1-TD-cJg"/>
+                        <segue destination="Vm0-iV-loW" kind="relationship" relationship="viewControllers" id="RyR-OW-ogw"/>
+                        <segue destination="Kg6-jK-mIf" kind="relationship" relationship="viewControllers" id="GsQ-lj-Wfw"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lB9-9k-rCd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2083" y="-1161"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Hobbies " width="207" height="243"/>
+        <image name="arrowtriangle.up.fill" catalog="system" width="128" height="120"/>
+        <image name="asians" width="1024" height="683"/>
+        <image name="circle.hexagongrid.circle" catalog="system" width="128" height="123"/>
+        <image name="me cat" width="630" height="630"/>
+        <image name="pencil.circle" catalog="system" width="128" height="123"/>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
