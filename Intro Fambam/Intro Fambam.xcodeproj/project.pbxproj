@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23ABDDEC28E1E8A60070AB02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABDDEB28E1E8A60070AB02 /* AppDelegate.swift */; };
+		23ABDDEE28E1E8A60070AB02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABDDED28E1E8A60070AB02 /* SceneDelegate.swift */; };
+		23ABDDF028E1E8A60070AB02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABDDEF28E1E8A60070AB02 /* ViewController.swift */; };
+		23ABDDF328E1E8A60070AB02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23ABDDF128E1E8A60070AB02 /* Main.storyboard */; };
+		23ABDDF528E1E8A70070AB02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23ABDDF428E1E8A70070AB02 /* Assets.xcassets */; };
+		23ABDDF828E1E8A70070AB02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23ABDDF628E1E8A70070AB02 /* LaunchScreen.storyboard */; };
+		23ABDE0328E1E8A80070AB02 /* Intro_FambamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABDE0228E1E8A80070AB02 /* Intro_FambamTests.swift */; };
+		23ABDE0D28E1E8A80070AB02 /* Intro_FambamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABDE0C28E1E8A80070AB02 /* Intro_FambamUITests.swift */; };
+		23ABDE0F28E1E8A80070AB02 /* Intro_FambamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABDE0E28E1E8A80070AB02 /* Intro_FambamUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23ABDDFF28E1E8A80070AB02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23ABDDE028E1E8A60070AB02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23ABDDE728E1E8A60070AB02;
+			remoteInfo = "Intro Fambam";
+		};
+		23ABDE0928E1E8A80070AB02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23ABDDE028E1E8A60070AB02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23ABDDE728E1E8A60070AB02;
+			remoteInfo = "Intro Fambam";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23ABDDE828E1E8A60070AB02 /* Intro Fambam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intro Fambam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23ABDDEB28E1E8A60070AB02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23ABDDED28E1E8A60070AB02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		23ABDDEF28E1E8A60070AB02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23ABDDF228E1E8A60070AB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23ABDDF428E1E8A70070AB02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23ABDDF728E1E8A70070AB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23ABDDF928E1E8A70070AB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23ABDDFE28E1E8A80070AB02 /* Intro FambamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intro FambamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23ABDE0228E1E8A80070AB02 /* Intro_FambamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro_FambamTests.swift; sourceTree = "<group>"; };
+		23ABDE0828E1E8A80070AB02 /* Intro FambamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intro FambamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23ABDE0C28E1E8A80070AB02 /* Intro_FambamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro_FambamUITests.swift; sourceTree = "<group>"; };
+		23ABDE0E28E1E8A80070AB02 /* Intro_FambamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro_FambamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23ABDDE528E1E8A60070AB02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23ABDDFB28E1E8A80070AB02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23ABDE0528E1E8A80070AB02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23ABDDDF28E1E8A60070AB02 = {
+			isa = PBXGroup;
+			children = (
+				23ABDDEA28E1E8A60070AB02 /* Intro Fambam */,
+				23ABDE0128E1E8A80070AB02 /* Intro FambamTests */,
+				23ABDE0B28E1E8A80070AB02 /* Intro FambamUITests */,
+				23ABDDE928E1E8A60070AB02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23ABDDE928E1E8A60070AB02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23ABDDE828E1E8A60070AB02 /* Intro Fambam.app */,
+				23ABDDFE28E1E8A80070AB02 /* Intro FambamTests.xctest */,
+				23ABDE0828E1E8A80070AB02 /* Intro FambamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23ABDDEA28E1E8A60070AB02 /* Intro Fambam */ = {
+			isa = PBXGroup;
+			children = (
+				23ABDDEB28E1E8A60070AB02 /* AppDelegate.swift */,
+				23ABDDED28E1E8A60070AB02 /* SceneDelegate.swift */,
+				23ABDDEF28E1E8A60070AB02 /* ViewController.swift */,
+				23ABDDF128E1E8A60070AB02 /* Main.storyboard */,
+				23ABDDF428E1E8A70070AB02 /* Assets.xcassets */,
+				23ABDDF628E1E8A70070AB02 /* LaunchScreen.storyboard */,
+				23ABDDF928E1E8A70070AB02 /* Info.plist */,
+			);
+			path = "Intro Fambam";
+			sourceTree = "<group>";
+		};
+		23ABDE0128E1E8A80070AB02 /* Intro FambamTests */ = {
+			isa = PBXGroup;
+			children = (
+				23ABDE0228E1E8A80070AB02 /* Intro_FambamTests.swift */,
+			);
+			path = "Intro FambamTests";
+			sourceTree = "<group>";
+		};
+		23ABDE0B28E1E8A80070AB02 /* Intro FambamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23ABDE0C28E1E8A80070AB02 /* Intro_FambamUITests.swift */,
+				23ABDE0E28E1E8A80070AB02 /* Intro_FambamUITestsLaunchTests.swift */,
+			);
+			path = "Intro FambamUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23ABDDE728E1E8A60070AB02 /* Intro Fambam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23ABDE1228E1E8A80070AB02 /* Build configuration list for PBXNativeTarget "Intro Fambam" */;
+			buildPhases = (
+				23ABDDE428E1E8A60070AB02 /* Sources */,
+				23ABDDE528E1E8A60070AB02 /* Frameworks */,
+				23ABDDE628E1E8A60070AB02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Intro Fambam";
+			productName = "Intro Fambam";
+			productReference = 23ABDDE828E1E8A60070AB02 /* Intro Fambam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23ABDDFD28E1E8A80070AB02 /* Intro FambamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23ABDE1528E1E8A80070AB02 /* Build configuration list for PBXNativeTarget "Intro FambamTests" */;
+			buildPhases = (
+				23ABDDFA28E1E8A80070AB02 /* Sources */,
+				23ABDDFB28E1E8A80070AB02 /* Frameworks */,
+				23ABDDFC28E1E8A80070AB02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23ABDE0028E1E8A80070AB02 /* PBXTargetDependency */,
+			);
+			name = "Intro FambamTests";
+			productName = "Intro FambamTests";
+			productReference = 23ABDDFE28E1E8A80070AB02 /* Intro FambamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23ABDE0728E1E8A80070AB02 /* Intro FambamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23ABDE1828E1E8A80070AB02 /* Build configuration list for PBXNativeTarget "Intro FambamUITests" */;
+			buildPhases = (
+				23ABDE0428E1E8A80070AB02 /* Sources */,
+				23ABDE0528E1E8A80070AB02 /* Frameworks */,
+				23ABDE0628E1E8A80070AB02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23ABDE0A28E1E8A80070AB02 /* PBXTargetDependency */,
+			);
+			name = "Intro FambamUITests";
+			productName = "Intro FambamUITests";
+			productReference = 23ABDE0828E1E8A80070AB02 /* Intro FambamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23ABDDE028E1E8A60070AB02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					23ABDDE728E1E8A60070AB02 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					23ABDDFD28E1E8A80070AB02 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 23ABDDE728E1E8A60070AB02;
+					};
+					23ABDE0728E1E8A80070AB02 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 23ABDDE728E1E8A60070AB02;
+					};
+				};
+			};
+			buildConfigurationList = 23ABDDE328E1E8A60070AB02 /* Build configuration list for PBXProject "Intro Fambam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23ABDDDF28E1E8A60070AB02;
+			productRefGroup = 23ABDDE928E1E8A60070AB02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23ABDDE728E1E8A60070AB02 /* Intro Fambam */,
+				23ABDDFD28E1E8A80070AB02 /* Intro FambamTests */,
+				23ABDE0728E1E8A80070AB02 /* Intro FambamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23ABDDE628E1E8A60070AB02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23ABDDF828E1E8A70070AB02 /* LaunchScreen.storyboard in Resources */,
+				23ABDDF528E1E8A70070AB02 /* Assets.xcassets in Resources */,
+				23ABDDF328E1E8A60070AB02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23ABDDFC28E1E8A80070AB02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23ABDE0628E1E8A80070AB02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23ABDDE428E1E8A60070AB02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23ABDDF028E1E8A60070AB02 /* ViewController.swift in Sources */,
+				23ABDDEC28E1E8A60070AB02 /* AppDelegate.swift in Sources */,
+				23ABDDEE28E1E8A60070AB02 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23ABDDFA28E1E8A80070AB02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23ABDE0328E1E8A80070AB02 /* Intro_FambamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23ABDE0428E1E8A80070AB02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23ABDE0D28E1E8A80070AB02 /* Intro_FambamUITests.swift in Sources */,
+				23ABDE0F28E1E8A80070AB02 /* Intro_FambamUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23ABDE0028E1E8A80070AB02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23ABDDE728E1E8A60070AB02 /* Intro Fambam */;
+			targetProxy = 23ABDDFF28E1E8A80070AB02 /* PBXContainerItemProxy */;
+		};
+		23ABDE0A28E1E8A80070AB02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23ABDDE728E1E8A60070AB02 /* Intro Fambam */;
+			targetProxy = 23ABDE0928E1E8A80070AB02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23ABDDF128E1E8A60070AB02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23ABDDF228E1E8A60070AB02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23ABDDF628E1E8A70070AB02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23ABDDF728E1E8A70070AB02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23ABDE1028E1E8A80070AB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23ABDE1128E1E8A80070AB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23ABDE1328E1E8A80070AB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Intro Fambam/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaydock.Intro-Fambam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23ABDE1428E1E8A80070AB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Intro Fambam/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaydock.Intro-Fambam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23ABDE1628E1E8A80070AB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaydock.Intro-FambamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intro Fambam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Intro Fambam";
+			};
+			name = Debug;
+		};
+		23ABDE1728E1E8A80070AB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaydock.Intro-FambamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intro Fambam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Intro Fambam";
+			};
+			name = Release;
+		};
+		23ABDE1928E1E8A80070AB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaydock.Intro-FambamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Intro Fambam";
+			};
+			name = Debug;
+		};
+		23ABDE1A28E1E8A80070AB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaydock.Intro-FambamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Intro Fambam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23ABDDE328E1E8A60070AB02 /* Build configuration list for PBXProject "Intro Fambam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23ABDE1028E1E8A80070AB02 /* Debug */,
+				23ABDE1128E1E8A80070AB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23ABDE1228E1E8A80070AB02 /* Build configuration list for PBXNativeTarget "Intro Fambam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23ABDE1328E1E8A80070AB02 /* Debug */,
+				23ABDE1428E1E8A80070AB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23ABDE1528E1E8A80070AB02 /* Build configuration list for PBXNativeTarget "Intro FambamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23ABDE1628E1E8A80070AB02 /* Debug */,
+				23ABDE1728E1E8A80070AB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23ABDE1828E1E8A80070AB02 /* Build configuration list for PBXNativeTarget "Intro FambamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23ABDE1928E1E8A80070AB02 /* Debug */,
+				23ABDE1A28E1E8A80070AB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23ABDDE028E1E8A60070AB02 /* Project object */;
+}
