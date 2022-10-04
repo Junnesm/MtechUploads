@@ -18,6 +18,7 @@ class MyViewController: UIViewController {
     @IBOutlet weak var tallyResult: UILabel! // update Ui to new value
     @IBOutlet weak var tallySlider: UISlider!
     
+    @IBOutlet weak var numberCountLabel: UILabel!
     
     var value = 0
     struct Settings {
@@ -31,6 +32,8 @@ class MyViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        numberCountLabel.text =  "\(Int(tallySlider.value))"
         
         value = myTally.startingNumber
         updateTally()
@@ -49,6 +52,7 @@ class MyViewController: UIViewController {
   
     @IBAction func tallyDidSlide(_ sender: UISlider) {
         myTally.counter = Int(sender.value)
+        numberCountLabel.text = String(myTally.counter)
     }
 }
     

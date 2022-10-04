@@ -112,6 +112,13 @@
                                     <action selector="tallyDidSlide:" destination="BYZ-38-t0r" eventType="valueChanged" id="OIL-VH-abI"/>
                                 </connections>
                             </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XoC-uu-dCh">
+                                <rect key="frame" x="25" y="149" width="340" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.96841138601303101" green="0.88371824228496709" blue="0.92293538845567002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -129,6 +136,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="5Hm-WS-eCy"/>
                     <connections>
+                        <outlet property="numberCountLabel" destination="XoC-uu-dCh" id="aTR-r8-hQN"/>
                         <outlet property="tallyButton" destination="UPa-pO-P1m" id="7ki-xz-ctx"/>
                         <outlet property="tallyResult" destination="3oA-oj-pKT" id="lWw-3Q-M1e"/>
                         <outlet property="tallySlider" destination="jad-Qv-4Yl" id="9yx-Uh-WX6"/>

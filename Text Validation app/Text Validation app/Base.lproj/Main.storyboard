@@ -59,14 +59,14 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Login"/>
                                 <connections>
                                     <action selector="loginButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="08M-Mr-a4I"/>
-                                    <segue destination="t3A-Rk-K8a" kind="show" id="e5F-Rf-Z7c"/>
+                                    <segue destination="t3A-Rk-K8a" kind="show" identifier="WelcomeToTheClubSegue" id="e5F-Rf-Z7c"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H85-2L-OZe">
                                 <rect key="frame" x="63" y="377" width="253" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                 <connections>
                                     <action selector="passwordAction:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="6Xa-l3-dzi"/>
                                 </connections>
@@ -86,15 +86,28 @@
             </objects>
             <point key="canvasLocation" x="113.84615384615384" y="-28.436018957345969"/>
         </scene>
-        <!--View Controller-->
+        <!--Welcome To The Club-->
         <scene sceneID="TeL-k1-TnR">
             <objects>
-                <viewController id="t3A-Rk-K8a" sceneMemberID="viewController">
+                <viewController id="t3A-Rk-K8a" customClass="WelcomeToTheClub" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lr1-UF-ldW">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the Club " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4PM-8M-j02">
+                                <rect key="frame" x="113" y="272" width="164" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Ny2-hB-NIL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4PM-8M-j02" firstAttribute="top" secondItem="Ny2-hB-NIL" secondAttribute="top" constant="181" id="2hX-fe-ebe"/>
+                            <constraint firstItem="Ny2-hB-NIL" firstAttribute="trailing" secondItem="4PM-8M-j02" secondAttribute="trailing" constant="113" id="Y4F-9b-Vgq"/>
+                            <constraint firstItem="4PM-8M-j02" firstAttribute="leading" secondItem="Ny2-hB-NIL" secondAttribute="leading" constant="113" id="ro8-tZ-UqW"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hqT-O4-dhO"/>
                 </viewController>
