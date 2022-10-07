@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wFe-e3-RRN">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="MGn-qE-UJR">
+            <objects>
+                <navigationController id="wFe-e3-RRN" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RTW-6Z-wUX">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="UuC-gd-yoO" kind="relationship" relationship="rootViewController" id="tKC-au-RRv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8RX-tW-DzC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1260" y="-28"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0hl-x9-1uB">
+            <objects>
+                <viewController id="UuC-gd-yoO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XiZ-Tc-Dxk">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9Z-t8-oPU">
+                                <rect key="frame" x="16" y="580" width="358" height="58"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Counting">
+                                            <attributes>
+                                                <font key="NSFont" size="38" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="2kL-5b-zuP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MWz-e9-dOp"/>
+                        <color key="backgroundColor" red="0.86078917980000003" green="0.74430046350000001" blue="0.79466087230000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="N9Z-t8-oPU" firstAttribute="leading" secondItem="MWz-e9-dOp" secondAttribute="leading" constant="16" id="5JG-dB-Jb4"/>
+                            <constraint firstItem="MWz-e9-dOp" firstAttribute="trailing" secondItem="N9Z-t8-oPU" secondAttribute="trailing" constant="16" id="KyT-Gh-UCP"/>
+                            <constraint firstItem="MWz-e9-dOp" firstAttribute="bottom" secondItem="N9Z-t8-oPU" secondAttribute="bottom" constant="172" id="h2B-zF-jK7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="rqh-wq-oqG"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" id="jmQ-mO-6Um"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Z7-si-lAx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-540" y="-28.436018957345969"/>
+        </scene>
+        <!--My View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MyViewController" customModule="TallyApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPa-pO-P1m">
+                                <rect key="frame" x="25" y="577.66666666666663" width="340" height="42"/>
+                                <color key="backgroundColor" red="0.53432888115062704" green="0.8605010211139914" blue="0.86078917980000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Start Counting">
+                                            <attributes>
+                                                <font key="NSFont" size="24" name="Skia-Regular"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="tallyButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eV4-xf-oyT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="this is a label. needs to be able to be updated " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3oA-oj-pKT">
+                                <rect key="frame" x="25" y="769.66666666666663" width="340" height="20.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Amount " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uLm-uf-eI2">
+                                <rect key="frame" x="157" y="270" width="77" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="15" translatesAutoresizingMaskIntoConstraints="NO" id="jad-Qv-4Yl">
+                                <rect key="frame" x="23" y="111" width="344" height="31"/>
+                                <connections>
+                                    <action selector="tallyDidSlide:" destination="BYZ-38-t0r" eventType="valueChanged" id="OIL-VH-abI"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XoC-uu-dCh">
+                                <rect key="frame" x="25" y="149" width="340" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.96841138601303101" green="0.88371824228496709" blue="0.92293538845567002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3oA-oj-pKT" secondAttribute="trailing" constant="25" id="5xe-jj-GJT"/>
+                            <constraint firstItem="UPa-pO-P1m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="CyQ-uC-vAz"/>
+                            <constraint firstItem="jad-Qv-4Yl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="FIi-MZ-lAs"/>
+                            <constraint firstItem="3oA-oj-pKT" firstAttribute="top" secondItem="UPa-pO-P1m" secondAttribute="bottom" constant="150" id="Iza-9O-mRA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3oA-oj-pKT" secondAttribute="bottom" constant="20" id="TlC-4u-hy5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jad-Qv-4Yl" secondAttribute="trailing" constant="25" id="bGO-b3-dVt"/>
+                            <constraint firstItem="jad-Qv-4Yl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="iVZ-L7-NCv"/>
+                            <constraint firstItem="3oA-oj-pKT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="qOy-rP-Imz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UPa-pO-P1m" secondAttribute="trailing" constant="25" id="r29-0T-gAO"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="5Hm-WS-eCy"/>
+                    <connections>
+                        <outlet property="numberCountLabel" destination="XoC-uu-dCh" id="aTR-r8-hQN"/>
+                        <outlet property="tallyButton" destination="UPa-pO-P1m" id="7ki-xz-ctx"/>
+                        <outlet property="tallyResult" destination="3oA-oj-pKT" id="lWw-3Q-M1e"/>
+                        <outlet property="tallySlider" destination="jad-Qv-4Yl" id="9yx-Uh-WX6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.76923076923077" y="-28.436018957345969"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="2kL-5b-zuP"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

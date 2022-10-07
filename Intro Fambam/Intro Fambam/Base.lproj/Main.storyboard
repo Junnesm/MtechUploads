@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="L1O-xD-Mnp">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="8Nn-eT-9hE">
+            <objects>
+                <navigationController id="L1O-xD-Mnp" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9gC-gc-obi">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="NsM-nL-sI6" kind="relationship" relationship="rootViewController" id="veU-sD-8jh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cgU-YX-hFj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1318" y="-96"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wqL-fK-POu">
+            <objects>
+                <viewController id="NsM-nL-sI6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wfq-TW-TBm">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screenshot_20220926-085012_2" translatesAutoresizingMaskIntoConstraints="NO" id="IV0-QN-XFC">
+                                <rect key="frame" x="20" y="111" width="350" height="500"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="500" id="YIh-hx-x6r"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRR-uf-xXB">
+                                <rect key="frame" x="109" y="631" width="172" height="34.333333333333371"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Watashi No Kazoku"/>
+                                <connections>
+                                    <segue destination="8t9-Nz-iEK" kind="show" id="Me2-UF-z7e"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="X3R-eR-K6H"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IV0-QN-XFC" firstAttribute="top" secondItem="X3R-eR-K6H" secondAttribute="top" constant="20" id="Ab8-2T-ffF"/>
+                            <constraint firstItem="IV0-QN-XFC" firstAttribute="leading" secondItem="X3R-eR-K6H" secondAttribute="leading" constant="20" id="fo2-yu-KBy"/>
+                            <constraint firstItem="qRR-uf-xXB" firstAttribute="top" secondItem="IV0-QN-XFC" secondAttribute="bottom" constant="20" id="rRe-Jl-Hna"/>
+                            <constraint firstItem="qRR-uf-xXB" firstAttribute="centerX" secondItem="wfq-TW-TBm" secondAttribute="centerX" id="yGu-SM-bzE"/>
+                            <constraint firstItem="X3R-eR-K6H" firstAttribute="trailing" secondItem="IV0-QN-XFC" secondAttribute="trailing" constant="20" id="ylz-7O-rRk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Upe-lp-MH9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zzp-ws-oxL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-529.23076923076917" y="-97.393364928909946"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WqL-zW-4kk">
+            <objects>
+                <viewController id="8t9-Nz-iEK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ByA-0C-XUC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="54" translatesAutoresizingMaskIntoConstraints="NO" id="8ZG-V2-nFd">
+                                <rect key="frame" x="18" y="91.000000000000028" width="354" height="418.66666666666674"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="67M-kM-xtp">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="418.66666666666669"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screenshot_20220926-085801_2" translatesAutoresizingMaskIntoConstraints="NO" id="Vup-C2-GR7">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="d6H-Tb-HOz"/>
+                                                    <constraint firstAttribute="width" constant="150" id="jL3-jo-YKI"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ve-rE-7Wc">
+                                                <rect key="frame" x="0.0" y="150" width="150" height="34.333333333333343"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Me"/>
+                                                <connections>
+                                                    <segue destination="H03-6R-ObV" kind="show" id="ZZZ-P5-XtA"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Evee PNG" translatesAutoresizingMaskIntoConstraints="NO" id="l4j-PS-e1G">
+                                                <rect key="frame" x="0.0" y="184.33333333333331" width="150" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="ccb-4I-7NR"/>
+                                                    <constraint firstAttribute="width" constant="200" id="oNm-k9-ee2"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aCV-rs-OR1">
+                                                <rect key="frame" x="0.0" y="384.33333333333331" width="150" height="34.333333333333314"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Eevee"/>
+                                                <connections>
+                                                    <segue destination="cZH-oW-jQC" kind="show" id="S9O-3H-Sdj"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ecb-6b-HAW">
+                                        <rect key="frame" x="204" y="0.0" width="150" height="418.66666666666669"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screenshot_20220926-085310_2" translatesAutoresizingMaskIntoConstraints="NO" id="9FT-Mf-Gs2">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="N7k-K0-dPc"/>
+                                                    <constraint firstAttribute="height" constant="150" id="w4s-mu-y8c"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsA-bv-fqy" userLabel="Ken-Chan">
+                                                <rect key="frame" x="0.0" y="150" width="150" height="34.333333333333343"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Ken-Chan "/>
+                                                <connections>
+                                                    <segue destination="MDb-Z2-akL" kind="show" id="nWk-K0-Ysh"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Koko PNG" translatesAutoresizingMaskIntoConstraints="NO" id="up1-1F-sDb">
+                                                <rect key="frame" x="0.0" y="184.33333333333331" width="150" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="0xr-YE-TDA"/>
+                                                    <constraint firstAttribute="width" constant="200" id="nWd-8A-dXS"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F8D-UO-1Xr">
+                                                <rect key="frame" x="0.0" y="384.33333333333331" width="150" height="34.333333333333314"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Koko"/>
+                                                <connections>
+                                                    <segue destination="c1V-3v-FAO" kind="show" id="HHI-zO-WUb"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="e1z-Ky-CKz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8ZG-V2-nFd" firstAttribute="top" secondItem="e1z-Ky-CKz" secondAttribute="top" id="26q-cC-hd5"/>
+                            <constraint firstItem="e1z-Ky-CKz" firstAttribute="trailing" secondItem="8ZG-V2-nFd" secondAttribute="trailing" constant="18" id="JAK-Hk-fDL"/>
+                            <constraint firstItem="8ZG-V2-nFd" firstAttribute="leading" secondItem="e1z-Ky-CKz" secondAttribute="leading" constant="18" id="XaX-1f-HLa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ua1-bX-0E4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fQx-9O-gji" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="147.69230769230768" y="-97.393364928909946"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rbu-o2-5G8">
+            <objects>
+                <viewController id="MDb-Z2-akL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Acx-jK-RqR">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ken-Chan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ht-DF-pxs">
+                                <rect key="frame" x="154" y="149" width="77" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ken was born " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7p-Rz-3lb">
+                                <rect key="frame" x="138" y="273" width="108" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eLQ-wW-dqi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3HN-TL-8xc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qKU-4c-ULd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1426" y="-294"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vH9-zc-ZFj">
+            <objects>
+                <viewController id="c1V-3v-FAO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EzC-bZ-kxd">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Koko is baby " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfo-lI-ia9">
+                                <rect key="frame" x="140" y="271" width="101" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Koko" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0S-tI-Lzj">
+                                <rect key="frame" x="171" y="161" width="38" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IsP-c6-lhr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="v8p-7E-TZ3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jML-4i-h4l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="735" y="568"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="d4i-uh-nKc">
+            <objects>
+                <viewController id="cZH-oW-jQC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PYD-yQ-vFY">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Eevee is Bougie AF" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhQ-u8-Aiv">
+                                <rect key="frame" x="131" y="250" width="145" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Eevee" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mEy-fb-0Kt">
+                                <rect key="frame" x="172" y="155" width="46" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="48g-wr-HDy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DJT-bi-kFu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lXf-Sj-6jr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1424.6153846153845" y="335.54502369668245"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="GdY-cG-cvZ">
+            <objects>
+                <viewController id="H03-6R-ObV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qm8-iL-xx6">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watashi Bruh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wd-TW-vaU">
+                                <rect key="frame" x="145" y="115" width="101" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Junne grew up in Hawaii. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBT-sI-kQU">
+                                <rect key="frame" x="99" y="231" width="193" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IS1-or-Obh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WmP-kb-YAc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SIi-vQ-4De" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="816.92307692307691" y="-728.67298578199052"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Evee PNG" width="1920" height="1080"/>
+        <image name="Koko PNG" width="1920" height="1080"/>
+        <image name="Screenshot_20220926-085012_2" width="695" height="991"/>
+        <image name="Screenshot_20220926-085310_2" width="1080" height="1435"/>
+        <image name="Screenshot_20220926-085801_2" width="1080" height="1447"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
