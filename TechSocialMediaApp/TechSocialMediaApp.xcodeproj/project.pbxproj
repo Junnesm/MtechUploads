@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2321BDA728EC984A0033B55C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321BDA628EC984A0033B55C /* AppDelegate.swift */; };
+		2321BDA928EC984A0033B55C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321BDA828EC984A0033B55C /* SceneDelegate.swift */; };
+		2321BDAB28EC984A0033B55C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321BDAA28EC984A0033B55C /* ViewController.swift */; };
+		2321BDAE28EC984A0033B55C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2321BDAC28EC984A0033B55C /* Main.storyboard */; };
+		2321BDB028EC984B0033B55C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2321BDAF28EC984B0033B55C /* Assets.xcassets */; };
+		2321BDB328EC984B0033B55C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2321BDB128EC984B0033B55C /* LaunchScreen.storyboard */; };
+		2321BDBE28EC984B0033B55C /* TechSocialMediaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321BDBD28EC984B0033B55C /* TechSocialMediaAppTests.swift */; };
+		2321BDC828EC984B0033B55C /* TechSocialMediaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321BDC728EC984B0033B55C /* TechSocialMediaAppUITests.swift */; };
+		2321BDCA28EC984B0033B55C /* TechSocialMediaAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2321BDC928EC984B0033B55C /* TechSocialMediaAppUITestsLaunchTests.swift */; };
+		2321BDD728EC9B600033B55C /* Japanese backgrouns.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2321BDD628EC9B600033B55C /* Japanese backgrouns.jpeg */; };
+		2321BDDF28ED3CAE0033B55C /* Screen Shot 2022-10-04 at 10.16.28 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2321BDDE28ED3CAE0033B55C /* Screen Shot 2022-10-04 at 10.16.28 PM.png */; };
+		2321BDE328ED496B0033B55C /* Screen Shot 2022-10-04 at 11.10.52 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2321BDE228ED496B0033B55C /* Screen Shot 2022-10-04 at 11.10.52 PM.png */; };
+		2321BDE528EDCA010033B55C /* cats-then-now-funny-technology-change-life-1-5715f4a7a450f__700.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2321BDE428EDCA010033B55C /* cats-then-now-funny-technology-change-life-1-5715f4a7a450f__700.jpeg */; };
+		237ADF9728EDDACE006A2AA4 /* Screen Shot 2022-10-05 at 8.35.55 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 237ADF9628EDDACE006A2AA4 /* Screen Shot 2022-10-05 at 8.35.55 AM.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2321BDBA28EC984B0033B55C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2321BD9B28EC984A0033B55C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2321BDA228EC984A0033B55C;
+			remoteInfo = TechSocialMediaApp;
+		};
+		2321BDC428EC984B0033B55C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2321BD9B28EC984A0033B55C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2321BDA228EC984A0033B55C;
+			remoteInfo = TechSocialMediaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2307EFD428EDE577001AB756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2321BDA328EC984A0033B55C /* TechSocialMediaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechSocialMediaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2321BDA628EC984A0033B55C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2321BDA828EC984A0033B55C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2321BDAA28EC984A0033B55C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2321BDAD28EC984A0033B55C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2321BDAF28EC984B0033B55C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2321BDB228EC984B0033B55C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2321BDB928EC984B0033B55C /* TechSocialMediaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechSocialMediaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2321BDBD28EC984B0033B55C /* TechSocialMediaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechSocialMediaAppTests.swift; sourceTree = "<group>"; };
+		2321BDC328EC984B0033B55C /* TechSocialMediaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechSocialMediaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2321BDC728EC984B0033B55C /* TechSocialMediaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechSocialMediaAppUITests.swift; sourceTree = "<group>"; };
+		2321BDC928EC984B0033B55C /* TechSocialMediaAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechSocialMediaAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2321BDD628EC9B600033B55C /* Japanese backgrouns.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Japanese backgrouns.jpeg"; sourceTree = "<group>"; };
+		2321BDDE28ED3CAE0033B55C /* Screen Shot 2022-10-04 at 10.16.28 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-10-04 at 10.16.28 PM.png"; sourceTree = "<group>"; };
+		2321BDE228ED496B0033B55C /* Screen Shot 2022-10-04 at 11.10.52 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-10-04 at 11.10.52 PM.png"; sourceTree = "<group>"; };
+		2321BDE428EDCA010033B55C /* cats-then-now-funny-technology-change-life-1-5715f4a7a450f__700.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cats-then-now-funny-technology-change-life-1-5715f4a7a450f__700.jpeg"; sourceTree = "<group>"; };
+		237ADF9628EDDACE006A2AA4 /* Screen Shot 2022-10-05 at 8.35.55 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-10-05 at 8.35.55 AM.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2321BDA028EC984A0033B55C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2321BDB628EC984B0033B55C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2321BDC028EC984B0033B55C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2321BD9A28EC984A0033B55C = {
+			isa = PBXGroup;
+			children = (
+				2321BDA528EC984A0033B55C /* TechSocialMediaApp */,
+				2321BDBC28EC984B0033B55C /* TechSocialMediaAppTests */,
+				2321BDC628EC984B0033B55C /* TechSocialMediaAppUITests */,
+				2321BDA428EC984A0033B55C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2321BDA428EC984A0033B55C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2321BDA328EC984A0033B55C /* TechSocialMediaApp.app */,
+				2321BDB928EC984B0033B55C /* TechSocialMediaAppTests.xctest */,
+				2321BDC328EC984B0033B55C /* TechSocialMediaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2321BDA528EC984A0033B55C /* TechSocialMediaApp */ = {
+			isa = PBXGroup;
+			children = (
+				2321BDA628EC984A0033B55C /* AppDelegate.swift */,
+				2321BDA828EC984A0033B55C /* SceneDelegate.swift */,
+				2321BDAA28EC984A0033B55C /* ViewController.swift */,
+				2321BDAC28EC984A0033B55C /* Main.storyboard */,
+				2321BDAF28EC984B0033B55C /* Assets.xcassets */,
+				2321BDD628EC9B600033B55C /* Japanese backgrouns.jpeg */,
+				2321BDDE28ED3CAE0033B55C /* Screen Shot 2022-10-04 at 10.16.28 PM.png */,
+				2321BDE228ED496B0033B55C /* Screen Shot 2022-10-04 at 11.10.52 PM.png */,
+				2321BDE428EDCA010033B55C /* cats-then-now-funny-technology-change-life-1-5715f4a7a450f__700.jpeg */,
+				237ADF9628EDDACE006A2AA4 /* Screen Shot 2022-10-05 at 8.35.55 AM.png */,
+				2321BDB128EC984B0033B55C /* LaunchScreen.storyboard */,
+				2307EFD428EDE577001AB756 /* Info.plist */,
+			);
+			path = TechSocialMediaApp;
+			sourceTree = "<group>";
+		};
+		2321BDBC28EC984B0033B55C /* TechSocialMediaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2321BDBD28EC984B0033B55C /* TechSocialMediaAppTests.swift */,
+			);
+			path = TechSocialMediaAppTests;
+			sourceTree = "<group>";
+		};
+		2321BDC628EC984B0033B55C /* TechSocialMediaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2321BDC728EC984B0033B55C /* TechSocialMediaAppUITests.swift */,
+				2321BDC928EC984B0033B55C /* TechSocialMediaAppUITestsLaunchTests.swift */,
+			);
+			path = TechSocialMediaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2321BDA228EC984A0033B55C /* TechSocialMediaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2321BDCD28EC984B0033B55C /* Build configuration list for PBXNativeTarget "TechSocialMediaApp" */;
+			buildPhases = (
+				2321BD9F28EC984A0033B55C /* Sources */,
+				2321BDA028EC984A0033B55C /* Frameworks */,
+				2321BDA128EC984A0033B55C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechSocialMediaApp;
+			productName = TechSocialMediaApp;
+			productReference = 2321BDA328EC984A0033B55C /* TechSocialMediaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2321BDB828EC984B0033B55C /* TechSocialMediaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2321BDD028EC984B0033B55C /* Build configuration list for PBXNativeTarget "TechSocialMediaAppTests" */;
+			buildPhases = (
+				2321BDB528EC984B0033B55C /* Sources */,
+				2321BDB628EC984B0033B55C /* Frameworks */,
+				2321BDB728EC984B0033B55C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2321BDBB28EC984B0033B55C /* PBXTargetDependency */,
+			);
+			name = TechSocialMediaAppTests;
+			productName = TechSocialMediaAppTests;
+			productReference = 2321BDB928EC984B0033B55C /* TechSocialMediaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2321BDC228EC984B0033B55C /* TechSocialMediaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2321BDD328EC984B0033B55C /* Build configuration list for PBXNativeTarget "TechSocialMediaAppUITests" */;
+			buildPhases = (
+				2321BDBF28EC984B0033B55C /* Sources */,
+				2321BDC028EC984B0033B55C /* Frameworks */,
+				2321BDC128EC984B0033B55C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2321BDC528EC984B0033B55C /* PBXTargetDependency */,
+			);
+			name = TechSocialMediaAppUITests;
+			productName = TechSocialMediaAppUITests;
+			productReference = 2321BDC328EC984B0033B55C /* TechSocialMediaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2321BD9B28EC984A0033B55C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2321BDA228EC984A0033B55C = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					2321BDB828EC984B0033B55C = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 2321BDA228EC984A0033B55C;
+					};
+					2321BDC228EC984B0033B55C = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 2321BDA228EC984A0033B55C;
+					};
+				};
+			};
+			buildConfigurationList = 2321BD9E28EC984A0033B55C /* Build configuration list for PBXProject "TechSocialMediaApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2321BD9A28EC984A0033B55C;
+			productRefGroup = 2321BDA428EC984A0033B55C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2321BDA228EC984A0033B55C /* TechSocialMediaApp */,
+				2321BDB828EC984B0033B55C /* TechSocialMediaAppTests */,
+				2321BDC228EC984B0033B55C /* TechSocialMediaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2321BDA128EC984A0033B55C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2321BDB328EC984B0033B55C /* LaunchScreen.storyboard in Resources */,
+				237ADF9728EDDACE006A2AA4 /* Screen Shot 2022-10-05 at 8.35.55 AM.png in Resources */,
+				2321BDE528EDCA010033B55C /* cats-then-now-funny-technology-change-life-1-5715f4a7a450f__700.jpeg in Resources */,
+				2321BDB028EC984B0033B55C /* Assets.xcassets in Resources */,
+				2321BDD728EC9B600033B55C /* Japanese backgrouns.jpeg in Resources */,
+				2321BDAE28EC984A0033B55C /* Main.storyboard in Resources */,
+				2321BDE328ED496B0033B55C /* Screen Shot 2022-10-04 at 11.10.52 PM.png in Resources */,
+				2321BDDF28ED3CAE0033B55C /* Screen Shot 2022-10-04 at 10.16.28 PM.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2321BDB728EC984B0033B55C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2321BDC128EC984B0033B55C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2321BD9F28EC984A0033B55C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2321BDAB28EC984A0033B55C /* ViewController.swift in Sources */,
+				2321BDA728EC984A0033B55C /* AppDelegate.swift in Sources */,
+				2321BDA928EC984A0033B55C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2321BDB528EC984B0033B55C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2321BDBE28EC984B0033B55C /* TechSocialMediaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2321BDBF28EC984B0033B55C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2321BDCA28EC984B0033B55C /* TechSocialMediaAppUITestsLaunchTests.swift in Sources */,
+				2321BDC828EC984B0033B55C /* TechSocialMediaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2321BDBB28EC984B0033B55C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2321BDA228EC984A0033B55C /* TechSocialMediaApp */;
+			targetProxy = 2321BDBA28EC984B0033B55C /* PBXContainerItemProxy */;
+		};
+		2321BDC528EC984B0033B55C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2321BDA228EC984A0033B55C /* TechSocialMediaApp */;
+			targetProxy = 2321BDC428EC984B0033B55C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2321BDAC28EC984A0033B55C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2321BDAD28EC984A0033B55C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2321BDB128EC984B0033B55C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2321BDB228EC984B0033B55C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2321BDCB28EC984B0033B55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2321BDCC28EC984B0033B55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2321BDCE28EC984B0033B55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73J8QZ9U74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TechSocialMediaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaydock.TechSocialMediaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2321BDCF28EC984B0033B55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73J8QZ9U74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TechSocialMediaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaydock.TechSocialMediaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2321BDD128EC984B0033B55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaydock.TechSocialMediaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechSocialMediaApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TechSocialMediaApp";
+			};
+			name = Debug;
+		};
+		2321BDD228EC984B0033B55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaydock.TechSocialMediaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechSocialMediaApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TechSocialMediaApp";
+			};
+			name = Release;
+		};
+		2321BDD428EC984B0033B55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaydock.TechSocialMediaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechSocialMediaApp;
+			};
+			name = Debug;
+		};
+		2321BDD528EC984B0033B55C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaydock.TechSocialMediaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechSocialMediaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2321BD9E28EC984A0033B55C /* Build configuration list for PBXProject "TechSocialMediaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2321BDCB28EC984B0033B55C /* Debug */,
+				2321BDCC28EC984B0033B55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2321BDCD28EC984B0033B55C /* Build configuration list for PBXNativeTarget "TechSocialMediaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2321BDCE28EC984B0033B55C /* Debug */,
+				2321BDCF28EC984B0033B55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2321BDD028EC984B0033B55C /* Build configuration list for PBXNativeTarget "TechSocialMediaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2321BDD128EC984B0033B55C /* Debug */,
+				2321BDD228EC984B0033B55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2321BDD328EC984B0033B55C /* Build configuration list for PBXNativeTarget "TechSocialMediaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2321BDD428EC984B0033B55C /* Debug */,
+				2321BDD528EC984B0033B55C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2321BD9B28EC984A0033B55C /* Project object */;
+}

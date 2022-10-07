@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nRV-jr-ane">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="MQd-B0-xFa">
+            <objects>
+                <viewController id="WxM-Sz-aCA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1HG-FL-XS9">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="0sS-DM-mCY">
+                                <rect key="frame" x="36" y="348" width="292.33333333333331" height="46"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-10-04 at 10.16.28 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZG5-7G-ipM">
+                                        <rect key="frame" x="0.0" y="0.0" width="41" height="46"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="41" id="K0i-ZO-ozc"/>
+                                            <constraint firstAttribute="height" constant="46" id="VQR-aU-BeK"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QeE-Cb-nNy">
+                                        <rect key="frame" x="49.000000000000014" y="0.0" width="243.33333333333337" height="46"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Junne Murdock ">
+                                                <attributes>
+                                                    <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <font key="NSFont" size="14" name="Didot-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="added ">
+                                                <attributes>
+                                                    <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <font key="NSFont" size="9" name="Didot"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="Ami Smith">
+                                                <attributes>
+                                                    <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <font key="NSFont" size="12" name="Didot"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" as Friends!!   ">
+                                                <attributes>
+                                                    <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <font key="NSFont" size="9" name="Didot"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <font key="NSFont" size="9" name="Geneva"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <color key="highlightedColor" red="1" green="0.036709969359999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <size key="shadowOffset" width="10" height="-1"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="H8r-5k-Uoh">
+                                <rect key="frame" x="36" y="67" width="212" height="246"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aK4-be-irS">
+                                        <rect key="frame" x="0.0" y="0.0" width="212" height="46"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-10-04 at 10.16.28 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="kJQ-TM-xwG">
+                                                <rect key="frame" x="0.0" y="0.0" width="41" height="46"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="41" id="COx-hX-fiB"/>
+                                                    <constraint firstAttribute="height" constant="46" id="byZ-gM-QTB"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ye1-sW-2ap">
+                                                <rect key="frame" x="41" y="0.0" width="171" height="46"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="171" id="1YQ-5W-wnr"/>
+                                                    <constraint firstAttribute="height" constant="29" id="ImD-xG-P0f"/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Junne Murdock ">
+                                                        <attributes>
+                                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <font key="NSFont" size="14" name="Didot-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="posted:  ">
+                                                        <attributes>
+                                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <font key="NSFont" size="9" name="Didot"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                                        <attributes>
+                                                            <color key="NSColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <font key="NSFont" size="9" name="Geneva"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <color key="highlightedColor" red="1" green="0.036709969359999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <size key="shadowOffset" width="10" height="-1"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cats-then-now-funny-technology-change-life-1-5715f4a7a450f__700.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="d3P-51-VfY">
+                                        <rect key="frame" x="49.666666666666671" y="47" width="113.00000000000001" height="199"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="199" id="1FJ-vt-yUb"/>
+                                            <constraint firstAttribute="width" constant="113" id="Me7-Rc-jFQ"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="212" id="GeN-3c-9az"/>
+                                    <constraint firstAttribute="height" constant="246" id="HmM-vP-iKv"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-10-05 at 8.35.55 AM.png" translatesAutoresizingMaskIntoConstraints="NO" id="jKe-PW-qKy">
+                                <rect key="frame" x="20" y="429" width="140" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="DjT-tQ-i4h"/>
+                                    <constraint firstAttribute="width" constant="140" id="etS-FK-oG2"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="C4o-Nj-Z0U"/>
+                        <color key="backgroundColor" red="1" green="0.65631733709999995" blue="0.56521448490000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="jKe-PW-qKy" firstAttribute="leading" secondItem="1HG-FL-XS9" secondAttribute="leading" constant="20" id="23e-ug-aEo"/>
+                            <constraint firstItem="jKe-PW-qKy" firstAttribute="top" secondItem="0sS-DM-mCY" secondAttribute="bottom" constant="35" id="EIr-mq-Xjc"/>
+                            <constraint firstItem="H8r-5k-Uoh" firstAttribute="leading" secondItem="1HG-FL-XS9" secondAttribute="leadingMargin" constant="20" id="Mdv-U5-Dge"/>
+                            <constraint firstItem="0sS-DM-mCY" firstAttribute="top" secondItem="H8r-5k-Uoh" secondAttribute="bottom" constant="35" id="PMp-b0-sME"/>
+                            <constraint firstItem="H8r-5k-Uoh" firstAttribute="top" secondItem="1HG-FL-XS9" secondAttribute="topMargin" constant="20" id="ScN-dq-GWw"/>
+                            <constraint firstItem="0sS-DM-mCY" firstAttribute="leading" secondItem="1HG-FL-XS9" secondAttribute="leadingMargin" constant="20" id="ytG-FF-tMw"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="figure.fall" catalog="system" id="u0s-Ay-ccO"/>
+                    <navigationItem key="navigationItem" id="QXL-n2-QKW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DmX-ei-V6E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-506" y="164"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2tB-4U-W3v">
+            <objects>
+                <viewController id="t3b-Bz-brP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yHG-iC-ZmC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Japanese backgrouns" translatesAutoresizingMaskIntoConstraints="NO" id="biw-Ko-kHi">
+                                <rect key="frame" x="-24" y="0.0" width="438" height="175"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="175" id="2W4-Mc-RNq"/>
+                                    <constraint firstAttribute="width" constant="438" id="Nj4-Kc-fMe"/>
+                                    <constraint firstAttribute="height" constant="175" id="xmJ-ch-YkN"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Evee PNG" translatesAutoresizingMaskIntoConstraints="NO" id="qa5-FS-wLQ">
+                                <rect key="frame" x="38" y="66" width="314" height="217"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="217" id="MX8-TD-rW2"/>
+                                    <constraint firstAttribute="width" constant="304" id="ZbV-XP-DSC"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="eEn-Pa-8rt">
+                                <rect key="frame" x="20" y="309" width="350" height="232.33333333333337"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="9Fh-oH-0do">
+                                        <rect key="frame" x="46.666666666666686" y="0.0" width="257" height="70.333333333333329"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fm-pX-XDo">
+                                                <rect key="frame" x="0.0" y="0.0" width="257" height="51"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="51" id="iXA-Ny-YYA"/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Junne Murdock ">
+                                                        <attributes>
+                                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <font key="NSFont" size="35" name="Didot"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <color key="highlightedColor" red="1" green="0.036709969359999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <size key="shadowOffset" width="10" height="-1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWW-lK-HNM">
+                                                <rect key="frame" x="0.0" y="51" width="257" height="19.333333333333329"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="19.329999999999998" id="iUv-W3-Dyq"/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Mobile App Developer in training. ">
+                                                        <attributes>
+                                                            <font key="NSFont" size="13" name="Georgia"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O29-W1-M7u">
+                                        <rect key="frame" x="13.666666666666657" y="77.333333333333314" width="322.66666666666674" height="155"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="155" id="gzq-mg-O9o"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment>
+                                                <string key="content">Bio: 
+Tech Interests: Apps, Design. 
+Tech Companies: Currently attending Mtech for IOS Mobile Development cert. 
+Tech Dislikes: Do not like not having a mouse. 
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                    <font key="NSFont" size="13" name="Helvetica-Bold"/>
+                                                    <font key="NSOriginalFont" size="13" name="Helvetica-Bold"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-10-04 at 11.10.52 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="vs4-7D-NTC">
+                                <rect key="frame" x="76.666666666666686" y="577" width="237" height="169"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="237" id="0Sa-TS-eZl"/>
+                                    <constraint firstAttribute="height" constant="169" id="Smc-b2-nYZ"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="iLc-mx-M8E">
+                                <rect key="frame" x="39" y="530" width="312" height="32"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-10-04 at 10.16.28 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="0aK-L6-x58">
+                                        <rect key="frame" x="0.0" y="0.0" width="41" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="ALt-OK-Hi4"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="32" id="TlO-Sd-sSz"/>
+                                            <constraint firstAttribute="width" constant="41" id="fmd-ki-Spt"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwB-gK-ym5">
+                                        <rect key="frame" x="49" y="0.0" width="263" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="29" id="WUz-JO-UrC"/>
+                                            <constraint firstAttribute="width" constant="263" id="fc3-i1-pYh"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" id="mbM-cD-Lnq"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Junne Murdock ">
+                                                <attributes>
+                                                    <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <font key="NSFont" size="14" name="Didot-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="shared ">
+                                                <attributes>
+                                                    <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <font key="NSFont" size="9" name="Didot"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="Real Tech News's">
+                                                <attributes>
+                                                    <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <font key="NSFont" size="13" name="Didot-Bold"/>
+                                                    <font key="NSOriginalFont" size="9" name="Didot-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" post.  ">
+                                                <attributes>
+                                                    <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <font key="NSFont" size="9" name="Didot"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                                <attributes>
+                                                    <color key="NSColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <font key="NSFont" size="9" name="Geneva"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <color key="highlightedColor" red="1" green="0.036709969359999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <size key="shadowOffset" width="10" height="-1"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2It-un-5jy"/>
+                        <color key="backgroundColor" red="1" green="0.65631733709999995" blue="0.56521448490000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="vs4-7D-NTC" firstAttribute="top" secondItem="iLc-mx-M8E" secondAttribute="bottom" constant="15" id="2pW-T1-GN8"/>
+                            <constraint firstItem="iLc-mx-M8E" firstAttribute="centerX" secondItem="yHG-iC-ZmC" secondAttribute="centerX" id="4sn-2q-sAP"/>
+                            <constraint firstAttribute="trailing" secondItem="biw-Ko-kHi" secondAttribute="trailing" id="8DW-Pj-s3r"/>
+                            <constraint firstItem="2It-un-5jy" firstAttribute="trailing" secondItem="qa5-FS-wLQ" secondAttribute="trailing" constant="60" id="F9I-As-mcQ"/>
+                            <constraint firstItem="qa5-FS-wLQ" firstAttribute="leading" secondItem="2It-un-5jy" secondAttribute="leading" constant="60" id="LJx-N2-9AH"/>
+                            <constraint firstItem="biw-Ko-kHi" firstAttribute="top" secondItem="yHG-iC-ZmC" secondAttribute="top" id="NWa-ql-7ea"/>
+                            <constraint firstAttribute="trailing" secondItem="biw-Ko-kHi" secondAttribute="trailing" constant="-24" id="SVh-VJ-VzS"/>
+                            <constraint firstItem="eEn-Pa-8rt" firstAttribute="top" secondItem="qa5-FS-wLQ" secondAttribute="bottom" constant="15" id="VBs-RO-smb"/>
+                            <constraint firstItem="eEn-Pa-8rt" firstAttribute="leading" secondItem="2It-un-5jy" secondAttribute="leading" constant="20" id="dCj-9h-ViJ"/>
+                            <constraint firstAttribute="trailing" secondItem="biw-Ko-kHi" secondAttribute="trailing" constant="-24" id="dXl-Zn-laT"/>
+                            <constraint firstItem="biw-Ko-kHi" firstAttribute="top" secondItem="yHG-iC-ZmC" secondAttribute="top" id="eQV-8P-KmU"/>
+                            <constraint firstItem="qa5-FS-wLQ" firstAttribute="centerX" secondItem="yHG-iC-ZmC" secondAttribute="centerX" id="fzL-uO-aeA"/>
+                            <constraint firstItem="qa5-FS-wLQ" firstAttribute="top" secondItem="yHG-iC-ZmC" secondAttribute="topMargin" constant="30" id="hTa-Nj-bi1"/>
+                            <constraint firstItem="biw-Ko-kHi" firstAttribute="leading" secondItem="yHG-iC-ZmC" secondAttribute="leading" id="han-TC-D4f"/>
+                            <constraint firstItem="2It-un-5jy" firstAttribute="trailing" secondItem="eEn-Pa-8rt" secondAttribute="trailing" constant="20" id="kBg-8N-1ye"/>
+                            <constraint firstItem="2It-un-5jy" firstAttribute="bottom" secondItem="vs4-7D-NTC" secondAttribute="bottom" constant="15" id="kud-d6-0R5"/>
+                            <constraint firstItem="vs4-7D-NTC" firstAttribute="centerX" secondItem="yHG-iC-ZmC" secondAttribute="centerX" id="pqC-xK-Pyv"/>
+                            <constraint firstItem="eEn-Pa-8rt" firstAttribute="leading" secondItem="2It-un-5jy" secondAttribute="leading" constant="20" id="twM-vj-nFK"/>
+                            <constraint firstAttribute="trailing" secondItem="eEn-Pa-8rt" secondAttribute="trailing" constant="20" id="wX9-oo-jt9"/>
+                            <constraint firstItem="biw-Ko-kHi" firstAttribute="leading" secondItem="yHG-iC-ZmC" secondAttribute="leading" constant="-24" id="zJI-LK-bsS"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="figure.flexibility" catalog="system" id="8Az-eR-M2s"/>
+                    <navigationItem key="navigationItem" id="LWg-Lq-gpg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Iu-vO-1wg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-515.38461538461536" y="-497.63033175355446"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Nb1-NZ-N5i">
+            <objects>
+                <tabBarController id="nRV-jr-ane" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JDQ-0V-U4y">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="t3b-Bz-brP" kind="relationship" relationship="viewControllers" id="nv4-sp-APj"/>
+                        <segue destination="WxM-Sz-aCA" kind="relationship" relationship="viewControllers" id="xhq-Zc-JpY"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Jj-Uy-4tU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1620" y="-176"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Evee PNG" width="540" height="407"/>
+        <image name="Japanese backgrouns" width="1200" height="522"/>
+        <image name="Screen Shot 2022-10-04 at 10.16.28 PM.png" width="274" height="263"/>
+        <image name="Screen Shot 2022-10-04 at 11.10.52 PM.png" width="502" height="407"/>
+        <image name="Screen Shot 2022-10-05 at 8.35.55 AM.png" width="340" height="334"/>
+        <image name="cats-then-now-funny-technology-change-life-1-5715f4a7a450f__700.jpeg" width="700" height="1177"/>
+        <image name="figure.fall" catalog="system" width="128" height="115"/>
+        <image name="figure.flexibility" catalog="system" width="128" height="110"/>
+    </resources>
+</document>
