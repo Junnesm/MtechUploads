@@ -21,6 +21,9 @@
 		2321BDE328ED496B0033B55C /* Screen Shot 2022-10-04 at 11.10.52 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2321BDE228ED496B0033B55C /* Screen Shot 2022-10-04 at 11.10.52 PM.png */; };
 		2321BDE528EDCA010033B55C /* cats-then-now-funny-technology-change-life-1-5715f4a7a450f__700.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2321BDE428EDCA010033B55C /* cats-then-now-funny-technology-change-life-1-5715f4a7a450f__700.jpeg */; };
 		237ADF9728EDDACE006A2AA4 /* Screen Shot 2022-10-05 at 8.35.55 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 237ADF9628EDDACE006A2AA4 /* Screen Shot 2022-10-05 at 8.35.55 AM.png */; };
+		23BCDBCE2912B913006F524D /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BCDBCD2912B913006F524D /* Posts.swift */; };
+		23BCDBD02912BF2F006F524D /* PostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BCDBCF2912BF2F006F524D /* PostsTableViewController.swift */; };
+		23BCDBD22912C5C9006F524D /* RyanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BCDBD12912C5C9006F524D /* RyanTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		2321BDE228ED496B0033B55C /* Screen Shot 2022-10-04 at 11.10.52 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-10-04 at 11.10.52 PM.png"; sourceTree = "<group>"; };
 		2321BDE428EDCA010033B55C /* cats-then-now-funny-technology-change-life-1-5715f4a7a450f__700.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cats-then-now-funny-technology-change-life-1-5715f4a7a450f__700.jpeg"; sourceTree = "<group>"; };
 		237ADF9628EDDACE006A2AA4 /* Screen Shot 2022-10-05 at 8.35.55 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-10-05 at 8.35.55 AM.png"; sourceTree = "<group>"; };
+		23BCDBCD2912B913006F524D /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		23BCDBCF2912BF2F006F524D /* PostsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewController.swift; sourceTree = "<group>"; };
+		23BCDBD12912C5C9006F524D /* RyanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyanTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +119,9 @@
 				2321BDA828EC984A0033B55C /* SceneDelegate.swift */,
 				2321BDAA28EC984A0033B55C /* ViewController.swift */,
 				2321BDAC28EC984A0033B55C /* Main.storyboard */,
+				23BCDBD12912C5C9006F524D /* RyanTableViewCell.swift */,
+				23BCDBCF2912BF2F006F524D /* PostsTableViewController.swift */,
+				23BCDBCD2912B913006F524D /* Posts.swift */,
 				2321BDAF28EC984B0033B55C /* Assets.xcassets */,
 				2321BDD628EC9B600033B55C /* Japanese backgrouns.jpeg */,
 				2321BDDE28ED3CAE0033B55C /* Screen Shot 2022-10-04 at 10.16.28 PM.png */,
@@ -281,6 +290,9 @@
 				2321BDAB28EC984A0033B55C /* ViewController.swift in Sources */,
 				2321BDA728EC984A0033B55C /* AppDelegate.swift in Sources */,
 				2321BDA928EC984A0033B55C /* SceneDelegate.swift in Sources */,
+				23BCDBCE2912B913006F524D /* Posts.swift in Sources */,
+				23BCDBD02912BF2F006F524D /* PostsTableViewController.swift in Sources */,
+				23BCDBD22912C5C9006F524D /* RyanTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

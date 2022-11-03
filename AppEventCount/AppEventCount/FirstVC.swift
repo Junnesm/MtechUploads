@@ -8,41 +8,39 @@
 import UIKit
 
 class FirstVC: UIViewController {
-    
-  
-    
-    
-    
+ 
     @IBOutlet weak var didFinishLaunchingWithOptionsLabel: UILabel!
-    var didFinishLaunchingWithOptions = 0
-
     @IBOutlet weak var configurationForConnectingLabel: UILabel!
-    var configurationForConnecting = 0
-    
     @IBOutlet weak var willConnectToLabel: UILabel!
-    var willConnectTo = 0
-    
     @IBOutlet weak var sceneDidBecomeActiveLabel: UILabel!
-    var sceneDidBecomeActive = 0
-    
     @IBOutlet weak var sceneWillResignActiveLabel: UILabel!
-    var sceneWillResignActive = 0
-    
     @IBOutlet weak var sceneWillEnterForegroundLabel: UILabel!
-    var sceneWillEnterForeground = 0
-    
     @IBOutlet weak var sceneDidEnterBackgroundLabel: UILabel!
-    var sceneDidEnterBackground = 0
+ 
     
+          var willConnectToCount = 0
+          var sceneDidBecomeActiveCount = 0
+          var sceneWillResignActiveCount = 0
+          var sceneWillEnterForegroundCount = 0
+          var sceneDidEnterBackgroundCount = 0
+        
+        var appDelegate = (UIApplication.shared.delegate as! AppDelegate)
     
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        updateView()
+        
     }
-
-    
-    
+    func updateView() {
+        didFinishLaunchingWithOptionsLabel.text = "The app has launched \(appDelegate.launchCount) time(s)"
+        configurationForConnectingLabel.text = "The app has configured \(appDelegate.configurationForConnectingCount) times"
+        willConnectToLabel.text = "The app has connected \(willConnectToCount) time(s)"
+        sceneDidBecomeActiveLabel.text = "The app has become active \(sceneWillResignActiveCount) time(s)"
+        sceneWillResignActiveLabel.text = "The app has resigned \(sceneWillResignActiveCount) time(s)"
+        sceneWillEnterForegroundLabel.text = "The app has entered the foreground \(sceneWillEnterForegroundCount) time(s)"
+        sceneDidEnterBackgroundLabel.text = "The app has entered the background \(sceneDidEnterBackgroundCount) time(s)"
+      }
     
     
     
