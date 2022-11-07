@@ -27,7 +27,7 @@ class RyanTableViewCell: UITableViewCell {
     func update(with post:PostInfo) {
         usernameTextField.text = post.userName
         postBodyTextView.text = post.postBody
-        dateTextField.text = dateFormatter.string(from: post.date)
+        dateTextField.text = post.date
     }
     
     
