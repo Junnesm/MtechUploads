@@ -1,13 +1,13 @@
 //
-//  Meal_TrackerUITests.swift
-//  Meal TrackerUITests
+//  ScoreKeeperAppUITests.swift
+//  ScoreKeeperAppUITests
 //
-//  Created by Ami Smith on 10/18/22.
+//  Created by Junne Murdock on 11/8/22.
 //
 
 import XCTest
 
-final class Meal_TrackerUITests: XCTestCase {
+final class ScoreKeeperAppUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

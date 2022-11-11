@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Meal Tracker
+//  ScoreKeeperApp
 //
-//  Created by Ami Smith on 10/18/22.
+//  Created by Junne Murdock on 11/8/22.
 //
 
 import UIKit

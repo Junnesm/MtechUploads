@@ -1,13 +1,13 @@
 //
-//  Meal_TrackerUITestsLaunchTests.swift
-//  Meal TrackerUITests
+//  ScoreKeeperAppUITestsLaunchTests.swift
+//  ScoreKeeperAppUITests
 //
-//  Created by Ami Smith on 10/18/22.
+//  Created by Junne Murdock on 11/8/22.
 //
 
 import XCTest
 
-final class Meal_TrackerUITestsLaunchTests: XCTestCase {
+final class ScoreKeeperAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
