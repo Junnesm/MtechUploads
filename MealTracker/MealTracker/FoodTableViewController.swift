@@ -18,10 +18,6 @@ class FoodTableViewController: UITableViewController {
         Meal(name: "Dinner", food: [Food(name: "Sushi", description: "Mommas Favorite!")])
         ]
     
-    
-    
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
