@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  ScoreKeeperApp
 //
-//  Created by Junne Murdock on 11/8/22.
+//  Created by Ami Smith on 11/8/22.
 //
 
 import UIKit

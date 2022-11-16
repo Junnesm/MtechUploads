@@ -18,7 +18,7 @@ class FurnitureTableViewController: UITableViewController {
                          Furniture(name: "Sink", description: "It's always full!")]),
         Room(name: "Bedroom",
              furniture: [Furniture(name: "Futon", description: "Mat on the floor."),
-                         Furniture(name: "Desk\", description: "Study to keep your mind sharp."),
+                         Furniture(name: "Desk", description: "Study to keep your mind sharp."),
                          Furniture(name: "Closet", description: "Hang up your clothes to keep them unwrinkled.")])]
     
     // MARK: - Table view data source

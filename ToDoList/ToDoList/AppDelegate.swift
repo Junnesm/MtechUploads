@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ScoreKeeperApp
+//  ToDoList
 //
-//  Created by Junne Murdock on 11/8/22.
+//  Created by Junne Murdock on 11/14/22.
 //
 
 import UIKit

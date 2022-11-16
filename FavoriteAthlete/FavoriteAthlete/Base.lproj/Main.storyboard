@@ -42,7 +42,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="Jdx-qb-Jda" kind="show" identifier="EditAthlete" id="lBM-ky-b8A"/>
+                                    <segue destination="Jdx-qb-Jda" kind="show" identifier="EditAthlete" destinationCreationSelector="editAthlete:sender:" id="lBM-ky-b8A"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -54,7 +54,7 @@
                     <navigationItem key="navigationItem" title="My Favorite Athletes" id="HkE-HG-Ylf">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="sEp-s4-2KD">
                             <connections>
-                                <segue destination="Jdx-qb-Jda" kind="show" identifier="AddAthlete" id="wJO-3P-Bh6"/>
+                                <segue destination="Jdx-qb-Jda" kind="show" identifier="AddAthlete" destinationCreationSelector="addAthlete:sender:" id="wJO-3P-Bh6"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -150,9 +150,11 @@
                         <outlet property="nameTextField" destination="9Ms-Uu-Heg" id="VJo-C5-mAK"/>
                         <outlet property="teamText" destination="uqw-ia-7EH" id="zpY-qd-gir"/>
                         <outlet property="teamTextField" destination="uqw-ia-7EH" id="06a-T2-sLw"/>
+                        <segue destination="NZb-B0-SD2" kind="unwind" unwindAction="unwindToAthleteTableViewController:" id="x1x-rZ-QMo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JRJ-p2-DTp" sceneMemberID="firstResponder"/>
+                <exit id="NZb-B0-SD2" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1863" y="139"/>
         </scene>

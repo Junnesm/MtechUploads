@@ -5,7 +5,11 @@ protocol EmployeeDetailTableViewControllerDelegate: AnyObject {
     func employeeDetailTableViewController(_ controller: EmployeeDetailTableViewController, didSave employee: Employee)
 }
 
-class EmployeeDetailTableViewController: UITableViewController, EmployeeTypeTableViewControllerDelegate {
+class EmployeeDetailTableViewController: UITableViewController, EmployeeTypeTableViewControllerDelegate, UITextFieldDelegate {
+    
+//    func employeeTypeTableViewController(_ controller: EmployeeTypeTableViewController, didSelect employeeType: EmployeeType) {
+//        employee?.employeeType = employeeType
+//      }
 
     @IBOutlet var nameTextField: UITextField!
     @IBOutlet var dobLabel: UILabel!
@@ -17,12 +21,20 @@ class EmployeeDetailTableViewController: UITableViewController, EmployeeTypeTabl
     var employee: Employee?
     var employeeType: EmployeeType?
     
+    
     var isEditingBirthday: Bool = false {
         didSet {
             tableView.beginUpdates()
             tableView.endUpdates()
         }
     }
+    
+    var dobDatePickerVisible: Bool = false {
+        didSet {
+            dobDatePicker.isHidden = !dobDatePickerVisible
+        }
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,11 +47,13 @@ class EmployeeDetailTableViewController: UITableViewController, EmployeeTypeTabl
         if let employee = employee {
             navigationItem.title = employee.name
             nameTextField.text = employee.name
-            
+            dobDatePicker.date = employee.dateOfBirth
             dobLabel.text = employee.dateOfBirth.formatted(date: .abbreviated, time: .omitted)
             dobLabel.textColor = .label
             employeeTypeLabel.text = employee.employeeType.description
             employeeTypeLabel.textColor = .label
+            
+            employeeType = employee.employeeType
         } else {
             navigationItem.title = "New Employee"
             prepareDOBPicker()
@@ -52,6 +66,7 @@ class EmployeeDetailTableViewController: UITableViewController, EmployeeTypeTabl
     }
     
     @IBAction func saveButtonTapped(_ sender: Any) {
+    
         guard let name = nameTextField.text, let employeeType = employeeType else {
             return
         }
@@ -104,6 +119,7 @@ class EmployeeDetailTableViewController: UITableViewController, EmployeeTypeTabl
         employeeTypeLabel.textColor = .label
         employeeTypeLabel.text = employeeType.description
         updateSaveButtonState()
+        tableView.reloadData()
     }
     
     // MARK: - Challenge Solution
