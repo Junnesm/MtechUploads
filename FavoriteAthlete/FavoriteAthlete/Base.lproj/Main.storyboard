@@ -54,7 +54,7 @@
                     <navigationItem key="navigationItem" title="My Favorite Athletes" id="HkE-HG-Ylf">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="sEp-s4-2KD">
                             <connections>
-                                <segue destination="Jdx-qb-Jda" kind="show" identifier="AddAthlete" destinationCreationSelector="addAthlete:sender:" id="wJO-3P-Bh6"/>
+                                <segue destination="Jdx-qb-Jda" kind="show" identifier="AddAthlete" destinationCreationSelector="addAthlete:" id="wJO-3P-Bh6"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -124,7 +124,8 @@
                                 <rect key="frame" x="178" y="388" width="34" height="30"/>
                                 <state key="normal" title="Save"/>
                                 <connections>
-                                    <action selector="persist:" destination="Jdx-qb-Jda" eventType="touchUpInside" id="x1T-zV-RNc"/>
+                                    <action selector="saveButtonPressed:" destination="Jdx-qb-Jda" eventType="touchUpInside" id="fI5-Zj-eDc"/>
+                                    <segue destination="NZb-B0-SD2" kind="unwind" unwindAction="unwindToAthleteTableViewController:" id="Twl-oL-d0y"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -143,14 +144,10 @@
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="vBG-05-QLL"/>
                     <connections>
                         <outlet property="ageText" destination="5BH-RZ-lV3" id="TrE-75-sjv"/>
-                        <outlet property="ageTextField" destination="5BH-RZ-lV3" id="1R7-Jn-nje"/>
                         <outlet property="leagueText" destination="Qwm-lN-Kse" id="oKn-Gb-bKh"/>
-                        <outlet property="leagueTextField" destination="Qwm-lN-Kse" id="gYY-f1-HQF"/>
                         <outlet property="nameText" destination="9Ms-Uu-Heg" id="Zk6-ve-geV"/>
-                        <outlet property="nameTextField" destination="9Ms-Uu-Heg" id="VJo-C5-mAK"/>
                         <outlet property="teamText" destination="uqw-ia-7EH" id="zpY-qd-gir"/>
-                        <outlet property="teamTextField" destination="uqw-ia-7EH" id="06a-T2-sLw"/>
-                        <segue destination="NZb-B0-SD2" kind="unwind" unwindAction="unwindToAthleteTableViewController:" id="x1x-rZ-QMo"/>
+                        <segue destination="NZb-B0-SD2" kind="unwind" identifier="unwindToAthleteTableViewController" unwindAction="unwindToAthleteTableViewController:" id="x1x-rZ-QMo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JRJ-p2-DTp" sceneMemberID="firstResponder"/>

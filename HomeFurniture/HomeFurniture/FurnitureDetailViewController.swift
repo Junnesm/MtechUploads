@@ -1,5 +1,6 @@
 
 import UIKit
+//FURNITURE DETAIL VIEW CONTROLLER PART 1 OF 3
 
 class FurnitureDetailViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
@@ -37,6 +38,7 @@ class FurnitureDetailViewController: UIViewController, UIImagePickerControllerDe
         furnitureTitleLabel.text = furniture.name
         furnitureDescriptionLabel.text = furniture.description
     }
+    //FURNITURE DETAIL VIEW CONTROLLER PART 2 OF 3
     
     @IBAction func choosePhotoButtonTapped(_ sender: Any) {
         let imagePicker = UIImagePickerController()
@@ -75,6 +77,7 @@ class FurnitureDetailViewController: UIViewController, UIImagePickerControllerDe
             self.updateView()
         }
     }
+    //FURNITURE DETAIL VIEW CONTROLLER PART 3 OF 3
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         dismiss(animated: true, completion: nil)

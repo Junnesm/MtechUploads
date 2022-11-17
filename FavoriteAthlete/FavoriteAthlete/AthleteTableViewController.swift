@@ -18,7 +18,7 @@ class AthleteTableViewController: UITableViewController {
     @IBSegueAction func addAthlete(_ coder: NSCoder) -> AthleteFormViewController? {
         return AthleteFormViewController(coder: coder, athlete: nil)
     }
-    
+ 
         
         
         
@@ -59,6 +59,7 @@ class AthleteTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: PropertyKeys.athleteCell, for: indexPath)
         
         let athlete = athletes[indexPath.row]
@@ -70,11 +71,10 @@ class AthleteTableViewController: UITableViewController {
         return cell
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        if let controller = segue.destination as? AthleteFormViewController {
-            
-            controller.athlete = /////?
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//
+//        if let controller = segue.destination as? AthleteFormViewController {
+//
+//            controller.athlete = /////?
         }
-    }
-}
+  

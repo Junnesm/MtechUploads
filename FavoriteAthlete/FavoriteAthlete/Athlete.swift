@@ -13,10 +13,6 @@ struct Athlete {
     var league: String
     var team: String
     
-    
-}
-
-extension Athlete: CustomStringConvertible {
     var description: String {
         return "\(name) is \(age) years old and they play for the \(team) in the \(league)."
     }

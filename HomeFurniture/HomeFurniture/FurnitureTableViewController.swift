@@ -1,6 +1,7 @@
 
 import UIKit
 
+//FURNITURE TABLE VIEW CONTROLLER PART 1 OF 2
 class FurnitureTableViewController: UITableViewController {
 
     struct PropertyKeys {
@@ -21,8 +22,6 @@ class FurnitureTableViewController: UITableViewController {
                          Furniture(name: "Desk", description: "Study to keep your mind sharp."),
                          Furniture(name: "Closet", description: "Hang up your clothes to keep them unwrinkled.")])]
     
-    // MARK: - Table view data source
-    
     override func numberOfSections(in tableView: UITableView) -> Int {
         return rooms.count
     }
@@ -31,7 +30,6 @@ class FurnitureTableViewController: UITableViewController {
         return rooms[section].furniture.count
     }
     
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: PropertyKeys.furnitureCell, for: indexPath)
@@ -39,6 +37,7 @@ class FurnitureTableViewController: UITableViewController {
         let room = rooms[indexPath.section]
         let furniture = room.furniture[indexPath.row]
         
+        //FURNITURE TABLE VIEW CONTROLLER PART 1 OF 2
         var content = cell.defaultContentConfiguration()
         content.text = furniture.name
         cell.contentConfiguration = content
