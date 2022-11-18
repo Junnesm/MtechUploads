@@ -9,6 +9,8 @@ import UIKit
 
 protocol ToDoCellDelegate: AnyObject {
     func checkmarkTapped(sender: ToDoCell)
+        
+    
 }
 
 class ToDoCell: UITableViewCell {

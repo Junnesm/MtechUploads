@@ -68,19 +68,29 @@ class ToDoDetailTableViewController: UITableViewController {
         dueDateLabel.text = date.formatted(.dateTime.month(.defaultDigits).day().year(.twoDigits).hour().minute())
     }
     
-        func updateSaveButtonState() {
+    func updateSaveButtonState() {
             let shouldEnableSaveButton = titleTextField.text?.isEmpty == false
             saveButton.isEnabled = shouldEnableSaveButton
         }
+    
+    
     @IBAction func textEditingChanged(_ sender: UITextField) {
         updateSaveButtonState()
     }
     @IBAction func returnPressed(_ sender: UITextField) {
         sender.resignFirstResponder()
     }
-    @IBAction func isCompleteButtonTapped(_ sender: UIButton) {
+    
+    
+    @IBAction func isCompleteButtonTapped(_ sender: Any) {
         isCompleteButton.isSelected.toggle()
     }
+    
+    
+    
+//    @IBAction func isCompleteButtonTapped(_ sender: UIButton) {
+//        isCompleteButton.isSelected.toggle()
+//    }
     @IBAction func datePickerChanged(_ sender: UIDatePicker) {
         updateDueDateLabel(date: sender.date)
     }
