@@ -6,8 +6,10 @@
 //
 
 import UIKit
-class RepTableViewController: UITableViewController{
+class RepTableViewController: UITableViewController {
+    
   @IBOutlet weak var searchBar: UISearchBar!
+    
   var items = [Rep]()
   var controller = RepController()
   func fetchMatchingItems() {

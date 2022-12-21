@@ -69,7 +69,7 @@
             </objects>
             <point key="canvasLocation" x="51" y="-43"/>
         </scene>
-        <!--Item-->
+        <!--Reps-->
         <scene sceneID="ccN-r9-Fk9">
             <objects>
                 <tableViewController id="w8D-ox-kXY" customClass="RepTableViewController" customModule="APIProject" customModuleProvider="target" sceneMemberID="viewController">
@@ -145,7 +145,7 @@
                             <outlet property="delegate" destination="w8D-ox-kXY" id="cE6-gJ-MZl"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="Rd6-cm-7iO"/>
+                    <tabBarItem key="tabBarItem" title="Reps" image="star" catalog="system" id="Rd6-cm-7iO"/>
                     <navigationItem key="navigationItem" id="dhu-5h-Jjv"/>
                     <connections>
                         <outlet property="searchBar" destination="Tpt-HV-3cp" id="1xT-wI-1O7"/>
@@ -158,6 +158,7 @@
     </scenes>
     <resources>
         <image name="pawprint.fill" catalog="system" width="128" height="112"/>
+        <image name="star" catalog="system" width="128" height="116"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
