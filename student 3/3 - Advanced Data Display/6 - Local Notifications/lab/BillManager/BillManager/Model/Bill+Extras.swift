@@ -4,6 +4,7 @@
 //
 
 import Foundation
+import UserNotifications
 
 extension Bill {
     var hasReminder: Bool {
@@ -26,4 +27,36 @@ extension Bill {
         return dateString
     }
     
-}
+    mutating func removeReminders () {
+        if let id = notificationID  {
+            UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: [id])
+            notificationID = nil
+            remindDate = nil
+        }
+        
+    }
+    
+    mutating func scheduleReminders() {
+        
+    }
+    
+    private func checkAuthorization(completion: @escaping (Bool) -> ()) {
+            let notificationCenter = UNUserNotificationCenter.current()
+            notificationCenter.getNotificationSettings { (settings) in
+                switch settings.authorizationStatus {
+                case .authorized:
+                    completion(true)
+                    
+                case .notDetermined:
+                    notificationCenter.requestAuthorization(options: [.alert, .sound], completionHandler: { (granted, _) in
+                        completion(granted)
+                    })
+                    
+                case .denied, .provisional, .ephemeral:
+                    completion(false)
+                @unknown default:
+                    completion(false)
+                }
+            }
+        }
+    }

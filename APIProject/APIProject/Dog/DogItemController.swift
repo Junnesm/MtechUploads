@@ -15,7 +15,7 @@ enum DogItemError: Error, LocalizedError {
 
 class DogItemController {
     func fetchDogItem() async throws -> DogItem {
-        var urlComponents = URLComponents(string: "https://dog.ceo/api/breeds/image/random")
+        let urlComponents = URLComponents(string: "https://dog.ceo/api/breeds/image/random")
         
         if let url = urlComponents?.url {
             do {
