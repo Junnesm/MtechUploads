@@ -177,6 +177,11 @@ class BillDetailTableViewController: UITableViewController, UITextFieldDelegate 
             return 44
         }
     }
+    
+    
+    func presentNeedAuthorizationAlert() {
+        
+    }
         
     @IBAction func dueDatePickerValueChanged(_ sender: UIDatePicker) {
         updateDueDateUI()
