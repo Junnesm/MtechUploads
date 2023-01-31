@@ -3,27 +3,39 @@
 //  BillManager
 //
 
+//
+//  AppDelegate.swift
+//  BillManager
+//
+
 import UIKit
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
     
-    let remindActionID: String = "Remind Action"
-    let markAsPaidActionID: String = "Paid Action"
+    private let remindActionID = "RemindAction"
+    private let markAsPaidActionID = "MarkAsPaidAction"
     
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        let id = response.notification.request.identifier
+        guard var bill = Database.shared.getBill(withID: id) else { completionHandler(); return }
         
-        let remindAction = UNNotificationAction(identifier: remindActionID, title: "Where da Money At ", options: [.authenticationRequired])
+        switch response.actionIdentifier {
+        case remindActionID:
+            let newRemindDate = Date().addingTimeInterval(60 * 60)
+            
+            bill.scheduleReminder(on: newRemindDate) { (updatedBill) in
+                Database.shared.updateAndSave(updatedBill)
+            }
+        case markAsPaidActionID:
+            bill.paidDate = Date()
+            Database.shared.updateAndSave(bill)
+        default:
+            break
+        }
         
-        let markAsPaidAction = UNNotificationAction(identifier: markAsPaidActionID, title: "Bye Money", options: [.authenticationRequired])
-        
-        var category = UNNotificationCategory(identifier: Bill.notificationCategoryID, actions: [remindAction, markAsPaidAction], intentIdentifiers: [], options: [])
-        
-        UNUserNotificationCenter.current().setNotificationCategories([category])
-        
-        UNUserNotificationCenter.current().delegate = self
-        
-        return true
+        completionHandler()
     }
     
     // MARK: UISceneSession Lifecycle
@@ -38,6 +50,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         // Called when the user discards a scene session.
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
+    }
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        completionHandler([.list, .banner, .sound])
+    }
+
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        let remindAction = UNNotificationAction(identifier: remindActionID, title: "Remind me later", options: [])
+        let markAsPaidAction = UNNotificationAction(identifier: markAsPaidActionID, title: "Mark as paid", options: [.authenticationRequired])
+        
+        let category = UNNotificationCategory(identifier: Bill.notificationCategoryID, actions: [remindAction, markAsPaidAction], intentIdentifiers: [], options: [])
+        
+        UNUserNotificationCenter.current().setNotificationCategories([category])
+        UNUserNotificationCenter.current().delegate = self
+        
+        return true
     }
 }
 

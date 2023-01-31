@@ -81,15 +81,11 @@ class Database {
         _billsLookup[bill.id] = nil
     }
     
-    func getBill(withID id: UUID) -> Bill? {
-        return _billsLookup[id]
+    func getBill(withID: String) -> Bill? {
+        guard let keyValue = _billsLookup.first(where: { $0.value.notificationID == withID}) else {return nil}
+        
+        return keyValue.value
     }
-// CODE ON TEACHER PROJECT
-//    func getBill(notificationID: String) -> Bill? {
-//        guard let keyValue = _billsLookup.first(where: { $0.value.notificationID == notificationID }) else { return nil }
-//
-//        return keyValue.value
-//    }
     
 }
 

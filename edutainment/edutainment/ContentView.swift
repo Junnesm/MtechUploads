@@ -104,17 +104,17 @@ struct ContentView: View {
                     Text("Score: \(scoreKeeper)")
                         .opacity(hideLockTableSelections ? 1 : 0)
                     
-                    Button("X") {
+                    Button("Math") {
                         settings()
                         math()
                     }
                     .disabled(hideLockTableSelections ? true : false)
-                    .frame(width: 50, height: 50)
+                    .frame(width: 50, height: 25)
                     .background(
-                        LinearGradient(gradient: Gradient(colors: [Color("blue-Magenta"), Color("green-Cyan"), Color("dark-CyanBlue")]), startPoint: .top, endPoint: .bottom)
+                        LinearGradient(gradient: Gradient(colors: [Color(.orange), Color(.systemPink), Color(.red)]), startPoint: .top, endPoint: .bottom)
                     )
                     .clipShape(Rectangle())
-                    .font(.system(size: 30))
+                    .font(.system(size: 20))
                     .fontWidth(.compressed)
                     .border(.mint)
                     .buttonBorderShape(.roundedRectangle)
