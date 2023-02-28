@@ -21,6 +21,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var nameLabel: UILabel!
+    //show the random name
     
     @IBAction func enterNameButtonTapped(_ sender: UIButton) {
         storeTextFieldNames(_textField: textField)
