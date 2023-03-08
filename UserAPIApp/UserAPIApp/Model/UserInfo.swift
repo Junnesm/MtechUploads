@@ -1,0 +1,112 @@
+//
+//  Person.swift
+//  UserAPIApp
+//
+//  Created by Junne Murdock on 2/27/23.
+//
+
+import Foundation
+
+
+
+struct Response: Codable {
+  let results: [RandomUser]
+  let info: Info
+}
+
+struct RandomUser: Codable {
+  let gender: String?
+  let name: Name
+  let location: Location?
+  let email: String?
+  let login: Login?
+  let dob: Dob?
+  let registered: Registered?
+  let phone: String?
+  let cell: String?
+  let picture: Picture
+  let nat: String?
+  let id: ID?
+}
+
+struct Name: Codable {
+  let title: String
+  let first: String
+  let last: String
+}
+
+struct Location: Codable {
+  let street: Street
+  let city: String
+  let state: String
+  let country: String
+  let coordinates: Coordinates?
+  let timezone: Timezone
+}
+
+struct Street: Codable {
+  let number: Int
+  let name: String
+}
+
+struct Coordinates: Codable {
+  let latitude: String?
+  let longitude: String?
+}
+
+struct Timezone: Codable {
+  let offset: String
+  let description: String
+}
+
+struct Login: Codable {
+  let uuid: String?
+  let username: String?
+  let password: String?
+  let salt: String?
+  let md5: String?
+  let sha1: String?
+  let sha256: String?
+}
+
+struct Dob: Codable {
+  let date: String
+  let age: Int
+}
+
+struct ID: Codable {
+  let name: String?
+  let value: String?
+}
+
+struct Registered: Codable {
+  let date: String?
+  let age: Int?
+}
+
+struct Picture: Codable {
+  let large: String
+  let medium: String
+  let thumbnail: String
+}
+
+struct Info: Codable {
+  let seed: String
+  let results: Int
+  let page: Int
+  let version: String
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

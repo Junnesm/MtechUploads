@@ -25,6 +25,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     @IBAction func enterNameButtonTapped(_ sender: UIButton) {
         storeTextFieldNames(_textField: textField)
+        
     }
     
     
@@ -34,13 +35,17 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     
-
+    @IBAction func resetButtonTapped(_ sender: UIBarButtonItem) {
+        names.removeAll()
+        arrayOfNamesTableView.reloadData()
+    }
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         //showing names of array
-        arrayOfNamesTableView.delegate = self ///
+        arrayOfNamesTableView.delegate = self // pulls data from table view
         arrayOfNamesTableView.dataSource = self
        
         
@@ -71,7 +76,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 
         return myArray.count
-       //?????????
+       //the names inputed into the table view
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -79,6 +84,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
          let name = myArray[indexPath.row]
          cell.arrayOfNamesLabel.text = name
          return cell
+        //This code is creating a table cell for each item in an array of names and setting the cell's label to the corresponding item in the array.
         
     }
     

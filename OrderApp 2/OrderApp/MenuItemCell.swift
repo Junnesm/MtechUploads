@@ -47,8 +47,5 @@ class MenuItemCell: UITableViewCell {
     }
         self.contentConfiguration = content
         
-    }
-    
-    
-    
+    } 
 }
