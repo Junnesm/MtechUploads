@@ -25,7 +25,7 @@ class DisplayUserTableViewCell: UITableViewCell {
     
     
     @IBOutlet weak var emailIdentifier: UILabel!
-    @IBOutlet weak var loginIdentifier: UILabel!//not connecting
+    @IBOutlet weak var loginIdentifier: UILabel!
     @IBOutlet weak var registeredIdentifier: UILabel!
     @IBOutlet weak var dOBIdentifier: UILabel!
     @IBOutlet weak var phoneIdentifier: UILabel!

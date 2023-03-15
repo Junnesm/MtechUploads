@@ -25,7 +25,7 @@ class RandomAPI {
             print(String(data: data, encoding: .utf8)!)
             guard let httpResponse = response as? HTTPURLResponse,
                   httpResponse.statusCode == 200 else {
-                throw RandomAPIController.RandomApiError.userNotFound // fixed error: use fully qualified error name
+                throw RandomAPIController.RandomApiError.userNotFound
             }
             
             let jsonDecoder = JSONDecoder()

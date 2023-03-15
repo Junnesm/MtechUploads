@@ -109,7 +109,9 @@ class DisplayUsersTableViewController: UITableViewController {
                         
                     }
                 }
+                
             }.resume()
+            
         }
         
         return cell

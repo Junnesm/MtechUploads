@@ -11,6 +11,9 @@
 		23303B9829B660CE003B471E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23303B9729B660CE003B471E /* ContentView.swift */; };
 		23303B9A29B660CF003B471E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23303B9929B660CF003B471E /* Assets.xcassets */; };
 		23303B9D29B660CF003B471E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23303B9C29B660CF003B471E /* Preview Assets.xcassets */; };
+		23A1E15E29B9982900D35143 /* APILayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1E15D29B9982900D35143 /* APILayer.swift */; };
+		23A1E16029BF6A4A00D35143 /* SwiftUIViewJobDescriptionUploadPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1E15F29BF6A4A00D35143 /* SwiftUIViewJobDescriptionUploadPopUp.swift */; };
+		23A1E16229C1765F00D35143 /* SwiftUIViewResumeUploadPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1E16129C1765F00D35143 /* SwiftUIViewResumeUploadPopup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		23303B9729B660CE003B471E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23303B9929B660CF003B471E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23303B9C29B660CF003B471E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23A1E15D29B9982900D35143 /* APILayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APILayer.swift; sourceTree = "<group>"; };
+		23A1E15F29BF6A4A00D35143 /* SwiftUIViewJobDescriptionUploadPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewJobDescriptionUploadPopUp.swift; sourceTree = "<group>"; };
+		23A1E16129C1765F00D35143 /* SwiftUIViewResumeUploadPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewResumeUploadPopup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				23303B9529B660CE003B471E /* CapStoneProjectApp.swift */,
 				23303B9729B660CE003B471E /* ContentView.swift */,
+				23A1E16129C1765F00D35143 /* SwiftUIViewResumeUploadPopup.swift */,
+				23A1E15F29BF6A4A00D35143 /* SwiftUIViewJobDescriptionUploadPopUp.swift */,
+				23A1E15D29B9982900D35143 /* APILayer.swift */,
 				23303B9929B660CF003B471E /* Assets.xcassets */,
 				23303B9B29B660CF003B471E /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23A1E16029BF6A4A00D35143 /* SwiftUIViewJobDescriptionUploadPopUp.swift in Sources */,
+				23A1E15E29B9982900D35143 /* APILayer.swift in Sources */,
 				23303B9829B660CE003B471E /* ContentView.swift in Sources */,
 				23303B9629B660CE003B471E /* CapStoneProjectApp.swift in Sources */,
+				23A1E16229C1765F00D35143 /* SwiftUIViewResumeUploadPopup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
