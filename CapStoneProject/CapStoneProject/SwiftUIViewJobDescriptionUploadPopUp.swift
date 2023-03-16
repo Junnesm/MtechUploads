@@ -13,6 +13,25 @@ struct SwiftUIViewJobDescriptionUploadPopUp: View {
     }
 }
 
+struct TextView: UIViewRepresentable {
+    typealias UIViewType = UITextView
+
+    var text: String
+
+    func makeUIView(context: Context) -> UITextView {
+        let textView = UITextView()
+        textView.isEditable = false
+        textView.font = UIFont.preferredFont(forTextStyle: .body)
+        textView.text = text
+        return textView
+    }
+
+    func updateUIView(_ uiView: UITextView, context: Context) {
+        uiView.text = text
+    }
+}
+
+
 struct SwiftUIViewLoadingPopUp_Previews: PreviewProvider {
     static var previews: some View {
         SwiftUIViewJobDescriptionUploadPopUp()
