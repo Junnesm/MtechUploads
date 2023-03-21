@@ -14,6 +14,7 @@
 		23A1E15E29B9982900D35143 /* ChatGptAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1E15D29B9982900D35143 /* ChatGptAPI.swift */; };
 		23A1E16029BF6A4A00D35143 /* SwiftUIViewJobDescriptionUploadPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1E15F29BF6A4A00D35143 /* SwiftUIViewJobDescriptionUploadPopUp.swift */; };
 		23A1E16229C1765F00D35143 /* SwiftUIViewResumeUploadPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1E16129C1765F00D35143 /* SwiftUIViewResumeUploadPopup.swift */; };
+		23A1E16729C364E000D35143 /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 23A1E16629C364E000D35143 /* OpenAIKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,6 @@
 		23A1E15D29B9982900D35143 /* ChatGptAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGptAPI.swift; sourceTree = "<group>"; };
 		23A1E15F29BF6A4A00D35143 /* SwiftUIViewJobDescriptionUploadPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewJobDescriptionUploadPopUp.swift; sourceTree = "<group>"; };
 		23A1E16129C1765F00D35143 /* SwiftUIViewResumeUploadPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewResumeUploadPopup.swift; sourceTree = "<group>"; };
-		23A1E16429C2C0A700D35143 /* openai-kit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "openai-kit"; path = "../openai-kit"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23A1E16729C364E000D35143 /* OpenAIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,7 +43,6 @@
 		23303B8929B660CE003B471E = {
 			isa = PBXGroup;
 			children = (
-				23A1E16329C2C0A700D35143 /* Packages */,
 				23303B9429B660CE003B471E /* CapStoneProject */,
 				23303B9329B660CE003B471E /* Products */,
 			);
@@ -78,14 +78,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		23A1E16329C2C0A700D35143 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				23A1E16429C2C0A700D35143 /* openai-kit */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -102,6 +94,9 @@
 			dependencies = (
 			);
 			name = CapStoneProject;
+			packageProductDependencies = (
+				23A1E16629C364E000D35143 /* OpenAIKit */,
+			);
 			productName = CapStoneProject;
 			productReference = 23303B9229B660CE003B471E /* CapStoneProject.app */;
 			productType = "com.apple.product-type.application";
@@ -130,6 +125,9 @@
 				Base,
 			);
 			mainGroup = 23303B8929B660CE003B471E;
+			packageReferences = (
+				23A1E16529C364E000D35143 /* XCRemoteSwiftPackageReference "OpenAIKit" */,
+			);
 			productRefGroup = 23303B9329B660CE003B471E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -361,6 +359,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		23A1E16529C364E000D35143 /* XCRemoteSwiftPackageReference "OpenAIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marcodotio/OpenAIKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		23A1E16629C364E000D35143 /* OpenAIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23A1E16529C364E000D35143 /* XCRemoteSwiftPackageReference "OpenAIKit" */;
+			productName = OpenAIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 23303B8A29B660CE003B471E /* Project object */;
 }

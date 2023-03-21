@@ -76,18 +76,18 @@ struct ContentView: View {
                     .navigationTitle("Get Started")
                     
                     // Button with image to present another view controller
-                    Button(action: {
-                        self.isResumeUploadPresented = true
-                    }) {
-                        Image("ResumeUploadButton")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                    }
+//                    Button(action: {
+//                        self.isResumeUploadPresented = true
+//                    }) {
+//                        Image("ResumeUploadButton")
+//                            .resizable()
+//                            .aspectRatio(contentMode: .fit)
+//                    }
                 }
                 List {
-                                    Text("Resume 3.4.23")
-                                    Text("Resume 8.3.20")
-                                    Text("Resume-Murdock")
+                                    Text("Job Ad 1")
+                                    Text("Ziprecruiter")
+                                    Text("Your Mom")
                                 }
                                 
                             }
@@ -107,32 +107,5 @@ struct ContentView: View {
                 ContentView()
             }
         }
-        
-        
-        
-        //            var body: some View {
-        //                VStack(alignment: .leading) {
-        //                    VStack(alignment: .leading) {
-        //                        Text("Job Description")
-        //                        TextField("Enter first text", text: $firstText)
-        //                            .padding()
-        //                            .background(Color.gray)
-        //                            .foregroundColor(.white)
-        //                    }
-        //
-        //                    VStack(alignment: .leading) {
-        //                        Text("Resume")
-        //                        TextField("Enter second text", text: $secondText)
-        //                            .padding()
-        //                            .background(Color.gray)
-        //                            .foregroundColor(.white)
-        //                    }
-        //                }
-        //                .padding()
-        //            }
-        
-        
-        
-        
     }
 

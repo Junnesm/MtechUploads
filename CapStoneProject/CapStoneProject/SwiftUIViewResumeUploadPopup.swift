@@ -30,6 +30,7 @@ struct SwiftUIViewResumeUploadPopup: View {
                     Button(action: {
                         // Handle save button tap here
                         savedResumeUploadText = resumeUploadTextView
+                        isSaved = true
                     }) {
                         Text("Save")
                     }
@@ -37,15 +38,27 @@ struct SwiftUIViewResumeUploadPopup: View {
             }
             .onDisappear(){
                 if isSaved {
-                    
                 }
             }
+            .background(NavigationLink(
+                            destination: UploadedResumeViewController(resume: resumeUploadTextView),
+                            isActive: $isSaved
+                        ) {
+                            EmptyView()
+                        })
+                    }
+            
         }
     }
-    
     struct SwiftUIViewResumeUploadPopup_Previews: PreviewProvider {
         static var previews: some View {
             SwiftUIViewResumeUploadPopup()
         }
+    }
+struct UploadedResumeViewController: View {
+    let resume: String
+    
+    var body: some View {
+        Text("Resume: \(resume)")
     }
 }
