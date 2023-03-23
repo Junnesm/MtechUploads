@@ -62,8 +62,8 @@
 				23303B9529B660CE003B471E /* CapStoneProjectApp.swift */,
 				23303B9729B660CE003B471E /* ContentView.swift */,
 				23A1E15F29BF6A4A00D35143 /* SwiftUIViewJobDescriptionUploadPopUp.swift */,
-				23A1E16129C1765F00D35143 /* SwiftUIViewResumeUploadPopup.swift */,
 				23A1E15D29B9982900D35143 /* ChatGptAPI.swift */,
+				23A1E16129C1765F00D35143 /* SwiftUIViewResumeUploadPopup.swift */,
 				23303B9929B660CF003B471E /* Assets.xcassets */,
 				23303B9B29B660CF003B471E /* Preview Content */,
 			);
